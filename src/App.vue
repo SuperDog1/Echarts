@@ -4,7 +4,7 @@
       <el-header><h1>双一流大学</h1></el-header>
       <el-container id="main">
         <el-aside width="260px"><Aside/></el-aside>
-        <el-main>Main</el-main>
+        <el-main><Main/></el-main>
       </el-container>
     </el-container>
   </div>
@@ -12,11 +12,13 @@
 
 <script>
 import Aside from './components/Aside'
+import Main from './components/Main'
 
 export default {
   name: 'App',
   components: {
-    Aside
+    Aside,
+    Main
   }
 }
 </script>
@@ -29,7 +31,15 @@ export default {
   #app {
     height: 100%;
   }
+  #main {
+    margin-top: 60px;
+  }
   .el-header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: white;
+    z-index: 100;
     color: #333;
     border-bottom: 1px solid #eee;
     text-align: center;
