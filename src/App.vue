@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header><h1>双一流大学</h1></el-header>
+      <el-header><h2>双一流大学</h2></el-header>
       <el-container id="main">
         <el-aside width="260px"><Aside/></el-aside>
-        <el-main><Main/></el-main>
+        <el-main><College/></el-main>
       </el-container>
     </el-container>
   </div>
@@ -13,12 +13,14 @@
 <script>
 import Aside from './components/Aside'
 import Main from './components/Main'
+import College from './components/College'
 
 export default {
   name: 'App',
   components: {
     Aside,
-    Main
+    Main,
+    College
   }
 }
 </script>
@@ -36,7 +38,7 @@ export default {
   }
   .el-header {
     position: fixed;
-    height: 60px;
+    /*height: 60px;*/
     width: 100%;
     background: white;
     z-index: 100;

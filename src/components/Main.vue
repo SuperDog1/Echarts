@@ -13,10 +13,10 @@ export default {
     const myChart = echarts.init(document.getElementById('china-map'))
     const option = {
       title: {
-        text: '双一流大学分布',
+        text: '双一流大学地域分布',
         left: 'center',
         textStyle: {
-          fontSize: 30
+          fontSize: 20
         }
       },
       tooltip: {
@@ -70,9 +70,7 @@ export default {
             showDelay: 0,
             transitionDuration: 0.2,
             formatter: function (params) {
-              var value = (params.value + '').split('.')
-              value = value[0].replace(/(\d{1,3})(?=(?:\d{3})+(?!\d))/g, '$1,')
-              return params.seriesName + '<br/>' + params.name + ': ' + value
+              return '清华大学'
             }
           },
           data: [
@@ -114,7 +112,10 @@ export default {
         }
       ]
     }
-
+    // 处理点击事件并且跳转到相应的百度搜索页面
+    myChart.on('click', function (params) {
+      window.open('https://www.baidu.com/s?wd=' + encodeURIComponent(params.name))
+    })
     myChart.setOption(option)
     myChart.on('mouseover', function (params) {
       console.log(params)
