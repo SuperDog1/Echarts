@@ -3,18 +3,24 @@
     <div class="title">省份</div>
     <ul id="list">
       <li v-for="item in province" :key="item">
-        <a href="">{{ item }}</a>
+        <div @click="select(item)">{{ item }}</div>
       </li>
     </ul>
   </div>
- </template>
+</template>
 <script>
 import province from './province.json'
 export default {
   name: 'Aside',
   data () {
     return {
-      province: province.data
+      province: province.data,
+      selected: ''
+    }
+  },
+  methods: {
+    select: function (el) {
+      this.selected = el
     }
   }
 }
@@ -37,17 +43,19 @@ export default {
     background: white;
   }
   ul {
-    margin-top: 80px;
+    margin-top: 62px;
+    margin-left: -40px;
   }
   li {
     list-style-type: none;
-    margin: 8px;
   }
-  li > a {
-    text-decoration: none;
+  li > div {
     color: #666;
+    padding: 8px 48px;
+    border-radius: 3px;
   }
-  li > a:hover {
+  li > div:hover {
+    background: #eee;
     color: #409eff;
   }
 </style>
