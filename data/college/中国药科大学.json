@@ -1,1 +1,26 @@
-{"data":[{"addr":"南京市童家巷24号","brief_introduction":"中国药科大学始建于1936年，是教育部直属的全国重点大学，是国家“211工程”重点建设的高校。中国药科大学是我国第一所独立设置的高等药学院校。经过近70年的励精图治和锐意进取，学校已发展成为以药学为特色，理、工、经、管、文等多学科协调发展，专科、本科、硕士、博士等多层次教育的多科性大学。学校主校区坐落在六朝古都南京，由玄武门校区、燕子矶校区和镇江校区三部分组成。玄武门校区重点是研究生教育，坐落在风景如画的玄武湖畔，校园内花木扶疏，绿草如茵；燕子矶校区重点是本科生教育，位于北临万里长江的燕子矶脚下","code":"322000700","college_id":117,"college_nature":"公办","edu_directly":true,"email":"zhaoban@cpu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/117.jpg","member_ship":"教育部","name":"中国药科大学","official_website":null,"old_name":"中国药科大学","property":"医药类","province":"江苏","ranking":"225","ranking_collegetype":"4","recruit_tel":"025-83271319，83271422","recruit_website":"http://www.cpu.edu.cn","tuition_fee":"我校按照教育部有关规定及江苏省物价局核定标准收取学费和住宿费，本、专科专业学费详见我校本专科招生网站;校内住宿费为1500元/学年。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "南京市童家巷24号",
+    "brief_introduction": "中国药科大学始建于1936年，是教育部直属的全国重点大学，是国家“211工程”重点建设的高校。中国药科大学是我国第一所独立设置的高等药学院校。经过近70年的励精图治和锐意进取，学校已发展成为以药学为特色，理、工、经、管、文等多学科协调发展，专科、本科、硕士、博士等多层次教育的多科性大学。学校主校区坐落在六朝古都南京，由玄武门校区、燕子矶校区和镇江校区三部分组成。玄武门校区重点是研究生教育，坐落在风景如画的玄武湖畔，校园内花木扶疏，绿草如茵；燕子矶校区重点是本科生教育，位于北临万里长江的燕子矶脚下",
+    "code": "322000700",
+    "college_id": 117,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zhaoban@cpu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/117.jpg",
+    "member_ship": "教育部",
+    "name": "中国药科大学",
+    "official_website": null,
+    "old_name": "中国药科大学",
+    "property": "医药类",
+    "province": "江苏",
+    "ranking": "225",
+    "ranking_collegetype": "4",
+    "recruit_tel": "025-83271319，83271422",
+    "recruit_website": "http://www.cpu.edu.cn",
+    "tuition_fee": "我校按照教育部有关规定及江苏省物价局核定标准收取学费和住宿费，本、专科专业学费详见我校本专科招生网站;校内住宿费为1500元/学年。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

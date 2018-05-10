@@ -1,1 +1,26 @@
-{"data":[{"addr":"湖北省武汉市洪山区鲁磨路388号","brief_introduction":"中国地质大学是教育部直属全国重点大学,是国家批准设立研究生院的大学，是国家“211工程”、教育部“优势学科创新平台”项目建设的大学;中国地质大学(武汉)位于武汉东湖之畔，南望山麓。学校以地球科学为主要特色，拥有地质学、地质资源与地质工程两个国家一级重点学科，学科涵盖理学、工学、文学、管理学、经济学、法学、艺术学、教育学、哲学等门类。学校是全国文明单位、湖北省最佳文明单位，拥有国家4A级旅游景区——逸夫博物馆。历史沿革中国地质大学创建于1952年，前身是北京大学、清华大学、天津大学、唐山铁道学院、","code":"422000500","college_id":121,"college_nature":"公办","edu_directly":true,"email":"zhaoban@cug.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/121.jpg","member_ship":"教育部","name":"中国地质大学","official_website":null,"old_name":"中国地质大学 曾用名：中国地质大学(武汉)","property":"理工类","province":"湖北","ranking":"164","ranking_collegetype":"78","recruit_tel":"027-67883304","recruit_website":"http://www.cug.edu.cn","tuition_fee":"第二十六条根据国家规定，学生入学须交纳学费、住宿费以及书本费、各种证件(卡)工本费等费用。具体收费标准按湖北省物价部门核定的标准执行。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "湖北省武汉市洪山区鲁磨路388号",
+    "brief_introduction": "中国地质大学是教育部直属全国重点大学,是国家批准设立研究生院的大学，是国家“211工程”、教育部“优势学科创新平台”项目建设的大学;中国地质大学(武汉)位于武汉东湖之畔，南望山麓。学校以地球科学为主要特色，拥有地质学、地质资源与地质工程两个国家一级重点学科，学科涵盖理学、工学、文学、管理学、经济学、法学、艺术学、教育学、哲学等门类。学校是全国文明单位、湖北省最佳文明单位，拥有国家4A级旅游景区——逸夫博物馆。历史沿革中国地质大学创建于1952年，前身是北京大学、清华大学、天津大学、唐山铁道学院、",
+    "code": "422000500",
+    "college_id": 121,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zhaoban@cug.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/121.jpg",
+    "member_ship": "教育部",
+    "name": "中国地质大学",
+    "official_website": null,
+    "old_name": "中国地质大学 曾用名：中国地质大学(武汉)",
+    "property": "理工类",
+    "province": "湖北",
+    "ranking": "164",
+    "ranking_collegetype": "78",
+    "recruit_tel": "027-67883304",
+    "recruit_website": "http://www.cug.edu.cn",
+    "tuition_fee": "第二十六条根据国家规定，学生入学须交纳学费、住宿费以及书本费、各种证件(卡)工本费等费用。具体收费标准按湖北省物价部门核定的标准执行。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

@@ -1,1 +1,26 @@
-{"data":[{"addr":"上海市中山北路3663号","brief_introduction":"学校创建于1951年10月16日，是以大夏大学、光华大学为基础，同时调进复旦大学和同济大学等院校的部分系科，在大夏大学原址上创办的新中国第一所社会主义师范大学。1959年华东师范大学就被确定为全国首批16所重点院校之一，1978年再次被确认为全国重点大学，是1986年国务院批准首批建立研究生院的33所高等院校之一。1996年通过“211工程”预审并被列入国家重点建设大学行列。2006年教育部和上海市决定重点共建华东师范大学，学校在建设世界知名的高水平研究型大学的道路上迈出了坚实步伐。学校地处上海","code":"312000600","college_id":131,"college_nature":"公办","edu_directly":true,"email":"zsb@ecnu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/131.jpg","member_ship":"教育部","name":"华东师范大学","official_website":null,"old_name":"华东师范大学","property":"师范类","province":"上海","ranking":"58","ranking_collegetype":"2","recruit_tel":"021-62232212","recruit_website":"http://www.ecnu.edu.cn","tuition_fee":"学校依法收取相关费用。其中：1.学费按学分收取，按学年预收。预收标准：艺术类专业为10000元/年；软件工程专业第一、二学年为5500元/年，第三、四学年为16000元/年；其他专业为5000-5500元/年。2.住宿费：中山北路校区为800-1200元/年，闵行校区1200元/年。3.对实行免费培养的师范生，将根据国家规定免收学费和住宿费，同时按照规定补助生活费。","type":"普通本科"},{"addr":"上海市中山北路3663号 华东师范大学（中北校区）干训楼119室","brief_introduction":"华东师范大学是教育部与上海市人民政府重点共建的综合性研究型大学。学校成立于1951年10月16日，是以大夏大学（1924年）、光华大学（1925年）为基础，同时调进复旦大学、同济大学、浙江大学和圣约翰大学等高校的部分系科，在大夏大学原址上创办的。1959年学校被中共中央确定为全国16所重点院校之一。1986年学校被国务院批准成为设立研究生院的33所高等院校之一。1996年被列入“211工程”国家重点建设大学行列。2002年根据上海市高校布局结构调整的战略部署，启动闵行校区规划建设，2006年学校","code":"310600001","college_id":3190,"college_nature":"[]","edu_directly":false,"email":"hnd@cce.ecnu.edu.cn; zab@dec.ecnu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/3190.jpg","member_ship":"[]","name":"华东师范大学国际合作教育中心","official_website":null,"old_name":"华东师范大学国际合作教育中心","property":"[]","province":"上海","ranking":"2797","ranking_collegetype":"0","recruit_tel":"021-62233497；62233483；62235157","recruit_website":"http://www.zab.ecnu.edu.cn","tuition_fee":"[]","type":"中外合作办学"}],"total":2}
+{
+  "data": [{
+    "addr": "上海市中山北路3663号",
+    "brief_introduction": "学校创建于1951年10月16日，是以大夏大学、光华大学为基础，同时调进复旦大学和同济大学等院校的部分系科，在大夏大学原址上创办的新中国第一所社会主义师范大学。1959年华东师范大学就被确定为全国首批16所重点院校之一，1978年再次被确认为全国重点大学，是1986年国务院批准首批建立研究生院的33所高等院校之一。1996年通过“211工程”预审并被列入国家重点建设大学行列。2006年教育部和上海市决定重点共建华东师范大学，学校在建设世界知名的高水平研究型大学的道路上迈出了坚实步伐。学校地处上海",
+    "code": "312000600",
+    "college_id": 131,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zsb@ecnu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/131.jpg",
+    "member_ship": "教育部",
+    "name": "华东师范大学",
+    "official_website": null,
+    "old_name": "华东师范大学",
+    "property": "师范类",
+    "province": "上海",
+    "ranking": "58",
+    "ranking_collegetype": "2",
+    "recruit_tel": "021-62232212",
+    "recruit_website": "http://www.ecnu.edu.cn",
+    "tuition_fee": "学校依法收取相关费用。其中：1.学费按学分收取，按学年预收。预收标准：艺术类专业为10000元/年；软件工程专业第一、二学年为5500元/年，第三、四学年为16000元/年；其他专业为5000-5500元/年。2.住宿费：中山北路校区为800-1200元/年，闵行校区1200元/年。3.对实行免费培养的师范生，将根据国家规定免收学费和住宿费，同时按照规定补助生活费。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

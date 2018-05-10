@@ -1,1 +1,26 @@
-{"data":[{"addr":"北京市朝阳区花家地南街8号","brief_introduction":"中央美术学院是教育部直属的唯一一所高等美术学校，于1950年4月由国立北平艺术专科学校与华北大学三部美术系合并成立。毛泽东为学院题名。徐悲鸿、江丰、吴作人、古元、靳尚谊先后担任院长。现任党委书记为杨力同志，现任院长为著名画家、美术史论家潘公凯教授，现任院学术委员会主任为著名油画家靳尚谊教授。北平艺术专科学校的历史可以上溯到1918年，由著名教育家蔡元培先生积极倡导下成立的国立北京美术学校，这是中国历史上第一所国立美术教育学府，也是中国现代美术教育的开端。华北大学美术系的前身是1938年创建于延安","code":"112003500","college_id":564,"college_nature":"公办","edu_directly":true,"email":"--","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/564.jpg","member_ship":"教育部","name":"中央美术学院","official_website":null,"old_name":"中央美术学院","property":"艺术类","province":"北京","ranking":"1115","ranking_collegetype":"17","recruit_tel":"010-64771057","recruit_website":"http://www.cafa.edu.cn/","tuition_fee":"我校按照教育部有关规定及北京市物价局核定标准收取学费和住宿费。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "北京市朝阳区花家地南街8号",
+    "brief_introduction": "中央美术学院是教育部直属的唯一一所高等美术学校，于1950年4月由国立北平艺术专科学校与华北大学三部美术系合并成立。毛泽东为学院题名。徐悲鸿、江丰、吴作人、古元、靳尚谊先后担任院长。现任党委书记为杨力同志，现任院长为著名画家、美术史论家潘公凯教授，现任院学术委员会主任为著名油画家靳尚谊教授。北平艺术专科学校的历史可以上溯到1918年，由著名教育家蔡元培先生积极倡导下成立的国立北京美术学校，这是中国历史上第一所国立美术教育学府，也是中国现代美术教育的开端。华北大学美术系的前身是1938年创建于延安",
+    "code": "112003500",
+    "college_id": 564,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "--",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/564.jpg",
+    "member_ship": "教育部",
+    "name": "中央美术学院",
+    "official_website": null,
+    "old_name": "中央美术学院",
+    "property": "艺术类",
+    "province": "北京",
+    "ranking": "1115",
+    "ranking_collegetype": "17",
+    "recruit_tel": "010-64771057",
+    "recruit_website": "http://www.cafa.edu.cn/",
+    "tuition_fee": "我校按照教育部有关规定及北京市物价局核定标准收取学费和住宿费。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

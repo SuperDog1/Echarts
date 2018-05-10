@@ -1,1 +1,26 @@
-{"data":[{"addr":"--","brief_introduction":"中国科学院大学(英文名：UniversityofChineseAcademyofSciences)，简称“国科大”，是国家教育部正式批准成立的一所以研究生教育为主的科教融合、独具特色的高等学校。国科大的前身是中国科学院研究生院，成立于1978年，是经党中央国务院批准创办的新中国第一所研究生院，培养了我国的第一个理学博士、第一个工学博士、第一个女博士、第一个双学位博士。2014年，国科大将开始招收本科生。基于中国科学院各研究所的高水平科研优势和高层次人才资源，国科大形成了由京内4个校区、京外5个教","code":"112033300","college_id":3145,"college_nature":"公办","edu_directly":false,"email":"xxgk@ucas.ac.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/3145.jpg","member_ship":"[]","name":"中国科学院大学","official_website":null,"old_name":"中国科学院大学 曾用名：中国科学院研究生院","property":"综合类","province":"北京","ranking":"2423","ranking_collegetype":"620","recruit_tel":"010-88256215/6714","recruit_website":"http://www.gucas.ac.cn/","tuition_fee":"每生每学年学费标准为5500元，住宿费为1000元。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "--",
+    "brief_introduction": "中国科学院大学(英文名：UniversityofChineseAcademyofSciences)，简称“国科大”，是国家教育部正式批准成立的一所以研究生教育为主的科教融合、独具特色的高等学校。国科大的前身是中国科学院研究生院，成立于1978年，是经党中央国务院批准创办的新中国第一所研究生院，培养了我国的第一个理学博士、第一个工学博士、第一个女博士、第一个双学位博士。2014年，国科大将开始招收本科生。基于中国科学院各研究所的高水平科研优势和高层次人才资源，国科大形成了由京内4个校区、京外5个教",
+    "code": "112033300",
+    "college_id": 3145,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "xxgk@ucas.ac.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/3145.jpg",
+    "member_ship": "[]",
+    "name": "中国科学院大学",
+    "official_website": null,
+    "old_name": "中国科学院大学 曾用名：中国科学院研究生院",
+    "property": "综合类",
+    "province": "北京",
+    "ranking": "2423",
+    "ranking_collegetype": "620",
+    "recruit_tel": "010-88256215/6714",
+    "recruit_website": "http://www.gucas.ac.cn/",
+    "tuition_fee": "每生每学年学费标准为5500元，住宿费为1000元。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

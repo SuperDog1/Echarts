@@ -1,1 +1,26 @@
-{"data":[{"addr":"黑龙江省哈尔滨市香坊区木材街59号","brief_introduction":"东北农业大学是一所“以农科为优势，以生命科学和食品科学为特色，农、工、理、经、管等多学科协调发展”的国家“211工程”重点建设大学，是黑龙江省人民政府与农业部省部共建大学、国家“中西部高校基础能力建设工程”项目入选高校、教育部本科教学工作水平评估优秀院校。学校1948年创建于哈尔滨，始称东北农学院，是中国共产党在解放区创办的第一所普通高等农业院校，知名教育家、哈尔滨市第一任市长刘达为学校第一任院长。建校以来，先后隶属于东北行政委员会农业部、国家高等教育部、国家农业部、黑龙江省农业委员会、黑龙江省","code":"232000800","college_id":137,"college_nature":"公办","edu_directly":false,"email":"neauxcb@126.com","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/137.jpg","member_ship":"黑龙江省教育厅","name":"东北农业大学","official_website":null,"old_name":"东北农业大学 曾用名：东北农学院","property":"农林类","province":"黑龙江","ranking":"363","ranking_collegetype":"19","recruit_tel":"0451-55190419","recruit_website":"http://www.neau.edu.cn","tuition_fee":"根据国家规定，学生入学须交纳学费。我校按黑龙江省物价局和黑龙江省教育厅核定的收费标准对学生收取学费。收费标准如有变动，以物价管理部门有关文件规定为准。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "黑龙江省哈尔滨市香坊区木材街59号",
+    "brief_introduction": "东北农业大学是一所“以农科为优势，以生命科学和食品科学为特色，农、工、理、经、管等多学科协调发展”的国家“211工程”重点建设大学，是黑龙江省人民政府与农业部省部共建大学、国家“中西部高校基础能力建设工程”项目入选高校、教育部本科教学工作水平评估优秀院校。学校1948年创建于哈尔滨，始称东北农学院，是中国共产党在解放区创办的第一所普通高等农业院校，知名教育家、哈尔滨市第一任市长刘达为学校第一任院长。建校以来，先后隶属于东北行政委员会农业部、国家高等教育部、国家农业部、黑龙江省农业委员会、黑龙江省",
+    "code": "232000800",
+    "college_id": 137,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "neauxcb@126.com",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/137.jpg",
+    "member_ship": "黑龙江省教育厅",
+    "name": "东北农业大学",
+    "official_website": null,
+    "old_name": "东北农业大学 曾用名：东北农学院",
+    "property": "农林类",
+    "province": "黑龙江",
+    "ranking": "363",
+    "ranking_collegetype": "19",
+    "recruit_tel": "0451-55190419",
+    "recruit_website": "http://www.neau.edu.cn",
+    "tuition_fee": "根据国家规定，学生入学须交纳学费。我校按黑龙江省物价局和黑龙江省教育厅核定的收费标准对学生收取学费。收费标准如有变动，以物价管理部门有关文件规定为准。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

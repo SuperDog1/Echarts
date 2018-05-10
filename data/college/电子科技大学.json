@@ -1,1 +1,26 @@
-{"data":[{"addr":"成都市高新区（西区）西源大道2006号","brief_introduction":"电子科技大学是教育部直属、国家“985工程”“211工程”重点建设大学，坐落于有“天府之国”之称的西部经济、文化、交通中心——四川省成都市。学校原名成都电讯工程学院，是1956年在周恩来总理的亲自部署下，由交通大学(现上海交通大学、西安交通大学)、南京工学院(现东南大学)、华南工学院(现华南理工大学)的电讯工程有关专业合并创建而成，1960年被中共中央列为全国重点高等学校，1961年被中共中央确定为七所国防工业院校之一，1988年更名为电子科技大学，1997年被确定为国家首批“211工程”建设的","code":"512000300","college_id":661,"college_nature":"公办","edu_directly":true,"email":"zhaoban@uestc.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/661.jpg","member_ship":"教育部","name":"电子科技大学","official_website":null,"old_name":"电子科技大学","property":"理工类","province":"四川","ranking":"65","ranking_collegetype":"23","recruit_tel":"028－61831137、61831139","recruit_website":"http://www.uestc.edu.cn/","tuition_fee":"第二十三条根据国家规定，学生入学须交纳学费和住宿费等费用。我校按四川省物价局核定的收费标准收取学杂费。2015年我校本科生各专业学费标准为：电气类(中外合作办学)(电子信息工程)专业每人6万元/学年，软件工程专业每人9800元/学年，其它理科专业每人4900元/学年，文科专业每人4400元/学年。","type":"普通本科"},{"addr":"--","brief_introduction":"[]","code":"512009700","college_id":3153,"college_nature":"[]","edu_directly":false,"email":"--","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/3153.jpg","member_ship":"[]","name":"电子科技大学（沙河校区）","official_website":null,"old_name":"电子科技大学（沙河校区）","property":"[]","province":"四川","ranking":"2782","ranking_collegetype":"0","recruit_tel":"--","recruit_website":"http://gwh.uestc.edu.cn/gwh/","tuition_fee":"[]","type":"[]"},{"addr":"四川省成都市高新西区百叶路1号","brief_introduction":"电子科技大学成都学院是国家教育部批准成立的独立学院(教发函[2004]21号)，是由电子科技大学与成都国腾实业集团合作创办，是采用新模式新机制举办的以本科层次为主的普通高等学校。学院创建于2001年，坐落在享有“天府之国”美誉的成都，位于国家级高新技术产业开发区——成都市高新西区，现有本、专科学生17000余名，占地1100亩。学院现设有系(分院)10个，本、专科专业40余个，是国家国际软件人才培训基地、国家软件产业基地人才培训中心。指导思想坚持教育以育人为本，以学生为主体;办学以人才为本，以教","code":"512000301","college_id":1131,"college_nature":"民办","edu_directly":false,"email":"uestc-cd@uestc.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/1131.jpg","member_ship":"四川省教育厅","name":"电子科技大学成都学院","official_website":null,"old_name":"电子科技大学成都学院","property":"理工类","province":"四川","ranking":"350","ranking_collegetype":"142","recruit_tel":"028-87825027、87825028、87825029","recruit_website":"http://www.cduestc.cn/","tuition_fee":"十一、收费标准根据国家规定，学生入学须交纳学费和住宿费等费用。我院按四川省物价局核定的收费标准收取，学费标准为：普通本科15000元/年·人，普通专科13000元/年·人，艺术类本科17000元/年·人，艺术类专科15000元/年·人;住宿费按不同的住宿规格收取：900—1200元/年·人。具体收费标准由各省(自治区、直辖市)招生办公室向社会公布。","type":"独立学院"}],"total":3}
+{
+  "data": [{
+    "addr": "成都市高新区（西区）西源大道2006号",
+    "brief_introduction": "电子科技大学是教育部直属、国家“985工程”“211工程”重点建设大学，坐落于有“天府之国”之称的西部经济、文化、交通中心——四川省成都市。学校原名成都电讯工程学院，是1956年在周恩来总理的亲自部署下，由交通大学(现上海交通大学、西安交通大学)、南京工学院(现东南大学)、华南工学院(现华南理工大学)的电讯工程有关专业合并创建而成，1960年被中共中央列为全国重点高等学校，1961年被中共中央确定为七所国防工业院校之一，1988年更名为电子科技大学，1997年被确定为国家首批“211工程”建设的",
+    "code": "512000300",
+    "college_id": 661,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zhaoban@uestc.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/661.jpg",
+    "member_ship": "教育部",
+    "name": "电子科技大学",
+    "official_website": null,
+    "old_name": "电子科技大学",
+    "property": "理工类",
+    "province": "四川",
+    "ranking": "65",
+    "ranking_collegetype": "23",
+    "recruit_tel": "028－61831137、61831139",
+    "recruit_website": "http://www.uestc.edu.cn/",
+    "tuition_fee": "第二十三条根据国家规定，学生入学须交纳学费和住宿费等费用。我校按四川省物价局核定的收费标准收取学杂费。2015年我校本科生各专业学费标准为：电气类(中外合作办学)(电子信息工程)专业每人6万元/学年，软件工程专业每人9800元/学年，其它理科专业每人4900元/学年，文科专业每人4400元/学年。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

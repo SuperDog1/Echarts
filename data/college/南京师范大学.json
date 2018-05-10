@@ -1,1 +1,26 @@
-{"data":[{"addr":"南京市宁海路122号","brief_introduction":"南京师范大学坐落在六朝古都南京，是国家“211工程”重点建设的江苏省属重点大学、江苏省与教育部共建高校。它的主源可追溯到1902年创办的三江师范学堂，该学堂是中国高等师范教育的发祥地之一。后历经两江优级师范学堂、南京高等师范学校、东南大学、第四中山大学、江苏大学、中央大学、南京大学等时期；其另一源头为1888年创办的汇文书院，后发展为私立金陵大学，1951年与私立金陵女子文理学院（曾称私立金陵女子大学）合并，成立公立金陵大学。1952年全国高校院系调整，在原南京大学、金陵大学等有关院系的基础上组","code":"322001900","college_id":115,"college_nature":"公办","edu_directly":false,"email":"--","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/115.jpg","member_ship":"江苏省教育厅","name":"南京师范大学","official_website":null,"old_name":"南京师范大学","property":"师范类","province":"江苏","ranking":"177","ranking_collegetype":"9","recruit_tel":"025-83720759","recruit_website":"http://www.njnu.edu.cn/","tuition_fee":"江苏省我校学费按照江苏省物价局颁布的收费标准执行；如有调整，则按新文件执行。","type":"普通本科"},{"addr":"江苏省泰州市东风南路518号","brief_introduction":"南京师范大学泰州学院是一所于2004年6月经国家教育部批准成立的普通高校本科层次独立学院，由南京师范大学和泰州高教投资发展有限公司共同组建。学院实行董事会领导下的院长负责制。博士生导师陈双林教授担任院长、法定代表人，郭宁生同志担任党委书记。经过11年的砥砺奋进，学院正在由规模扩张型向内涵提升型转变，取得了可喜的办学成果，学院成为泰州历史上第一座万人本科大学，先后荣获“全国先进独立学校”和“中国民办高等教育优秀院校”等称号，《人民日报》《光明日报》《中国教育报》多次报道我院办学业绩。学院办学规范，","code":"322001901","college_id":1442,"college_nature":"民办","edu_directly":false,"email":"--","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/1442.jpg","member_ship":"江苏省教育厅","name":"南京师范大学泰州学院","official_website":null,"old_name":"南京师范大学泰州学院","property":"师范类","province":"江苏","ranking":"842","ranking_collegetype":"105","recruit_tel":"0523-86152006、86152200、86152007、85558909、86153717、86152163","recruit_website":"http://zs.nnutc.edu.cn/","tuition_fee":"学费标准：人文社科类、体育类专业14000元/学年;理工科类专业15000元/学年;艺术类专业16500元/学年(如有调整，按当年江苏省教育厅、物价局相关文件执行)。","type":"独立学院"},{"addr":"江苏省南京市文苑路1号","brief_introduction":"南京师范大学中北学院是经国家教育部批准，由南京师范大学和南京师范大学教育发展基金会共同举办的独立学院。学院坐落于南京紫金山东麓的仙林大学城内，与南京师范大学仙林校区比肩而立。中北学院自1999年建院以来，秉承百年老校——南京师范大学优良的办学传统和先进的教育理念，依托南京师范大学的优质教学资源，独立组织教学，是南京师范大学本科生培养的有机组成部分。学院的学生与南京师范大学其他院（部）的学生共享学校的图书资料、实验设施、体育场馆、学生公寓等教育教学资源。中北学院现有文、理、工、管理、艺术等多个学科","code":"322001902","college_id":2545,"college_nature":"民办","edu_directly":false,"email":"--","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/2545.jpg","member_ship":"江苏省教育厅","name":"南京师范大学中北学院","official_website":null,"old_name":"南京师范大学中北学院","property":"综合类","province":"江苏","ranking":"1005","ranking_collegetype":"261","recruit_tel":"（025）85891289 85891052 83598048（暑期）","recruit_website":"http://www.nnuzc.cn/zhaosheng/","tuition_fee":"学费标准：人文社科类各专业学生学费为14000元/学年，理工科类各专业学生学费为15000元/学年(嵌入式培养类专业学生学费为17000元/学年)，艺术类专业学生学费为16500元/学年。住宿费：1500元/学年。","type":"独立学院"}],"total":3}
+{
+  "data": [{
+    "addr": "南京市宁海路122号",
+    "brief_introduction": "南京师范大学坐落在六朝古都南京，是国家“211工程”重点建设的江苏省属重点大学、江苏省与教育部共建高校。它的主源可追溯到1902年创办的三江师范学堂，该学堂是中国高等师范教育的发祥地之一。后历经两江优级师范学堂、南京高等师范学校、东南大学、第四中山大学、江苏大学、中央大学、南京大学等时期；其另一源头为1888年创办的汇文书院，后发展为私立金陵大学，1951年与私立金陵女子文理学院（曾称私立金陵女子大学）合并，成立公立金陵大学。1952年全国高校院系调整，在原南京大学、金陵大学等有关院系的基础上组",
+    "code": "322001900",
+    "college_id": 115,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "--",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/115.jpg",
+    "member_ship": "江苏省教育厅",
+    "name": "南京师范大学",
+    "official_website": null,
+    "old_name": "南京师范大学",
+    "property": "师范类",
+    "province": "江苏",
+    "ranking": "177",
+    "ranking_collegetype": "9",
+    "recruit_tel": "025-83720759",
+    "recruit_website": "http://www.njnu.edu.cn/",
+    "tuition_fee": "江苏省我校学费按照江苏省物价局颁布的收费标准执行；如有调整，则按新文件执行。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

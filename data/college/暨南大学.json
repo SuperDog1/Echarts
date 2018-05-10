@@ -1,1 +1,26 @@
-{"data":[{"addr":"广东省广州市黄埔大道西601号","brief_introduction":"暨南大学是中国第一所由国家创办的华侨学府，是目前全国境外生最多的大学，是国家“211工程”重点综合性大学，直属国务院侨务办公室领导。“暨南”二字出自《尚书·禹贡》篇：“东渐于海，西被于流沙，朔南暨，声教讫于四海。”意即面向南洋，将中华文化远播到五洲四海。学校的前身是1906年清政府创立于南京的暨南学堂。后迁至上海，1927年更名为国立暨南大学。抗日战争期间，迁址福建建阳。1946年迁回上海。1949年8月合并于复旦、交通等大学。1958年在广州重建。素有“华侨最高学府”之称的暨南大学，恪守“忠信","code":"442000300","college_id":106,"college_nature":"公办","edu_directly":false,"email":"ozsb@jnu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/106.jpg","member_ship":"国务院侨务办公室","name":"暨南大学","official_website":null,"old_name":"暨南大学","property":"综合类","province":"广东","ranking":"61","ranking_collegetype":"31","recruit_tel":"020-85220130，85228929","recruit_website":"http://www.jnu.edu.cn","tuition_fee":"学校分省分专业招生计划、专业选考科目要求、收费标准、办学地点及其他相关信息由各省省级招生管理部门向社会公布。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "广东省广州市黄埔大道西601号",
+    "brief_introduction": "暨南大学是中国第一所由国家创办的华侨学府，是目前全国境外生最多的大学，是国家“211工程”重点综合性大学，直属国务院侨务办公室领导。“暨南”二字出自《尚书·禹贡》篇：“东渐于海，西被于流沙，朔南暨，声教讫于四海。”意即面向南洋，将中华文化远播到五洲四海。学校的前身是1906年清政府创立于南京的暨南学堂。后迁至上海，1927年更名为国立暨南大学。抗日战争期间，迁址福建建阳。1946年迁回上海。1949年8月合并于复旦、交通等大学。1958年在广州重建。素有“华侨最高学府”之称的暨南大学，恪守“忠信",
+    "code": "442000300",
+    "college_id": 106,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "ozsb@jnu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/106.jpg",
+    "member_ship": "国务院侨务办公室",
+    "name": "暨南大学",
+    "official_website": null,
+    "old_name": "暨南大学",
+    "property": "综合类",
+    "province": "广东",
+    "ranking": "61",
+    "ranking_collegetype": "31",
+    "recruit_tel": "020-85220130，85228929",
+    "recruit_website": "http://www.jnu.edu.cn",
+    "tuition_fee": "学校分省分专业招生计划、专业选考科目要求、收费标准、办学地点及其他相关信息由各省省级招生管理部门向社会公布。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

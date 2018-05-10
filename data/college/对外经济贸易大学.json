@@ -1,1 +1,26 @@
-{"data":[{"addr":"北京市朝阳区惠新东街10号","brief_introduction":"对外经济贸易大学，座落于首都北京朝阳区。校园草木葱郁，环境幽雅。功能齐全的教学楼，藏书丰富、实现自动化管理的图书馆，拥有卫星地面站和现代化语言实验室的教育技术中心，设备先进齐全的网络与计算中心，可供正式比赛使用的运动场和游泳场，舒适方便的学生公寓，神采飞扬的学生，温文尔雅的教师……一切，都透露出这所高等学府的青春活力、现代气息。对外经济贸易大学创建于1951年。2000年以前为原对外贸易经济合作部所属。2000年6月，原中国金融学院与原对外经济贸易大学合并成立新的对外经济贸易大学，转为教育部直属","code":"112001600","college_id":53,"college_nature":"公办","edu_directly":true,"email":"zhaosheng@uibe.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/53.jpg","member_ship":"教育部","name":"对外经济贸易大学","official_website":null,"old_name":"对外经济贸易大学","property":"财经类","province":"北京","ranking":"108","ranking_collegetype":"13","recruit_tel":"（010）64492178","recruit_website":"http://www.uibe.edu.cn","tuition_fee":"2015年学费为外国语言类本科生每学年6000元人民币，其他专业本科生每学年5000元人民币。学校将根据住宿条件的不同向在校生收取不同标准的住宿费，男生宿舍住宿费一般每学年750元，女生宿舍住宿费一般每学年900元。","type":"普通本科"},{"addr":"北京市朝阳区惠新东街10号","brief_introduction":"对外经济贸易大学远程教育学院（简称“贸大远程”）是对外经济贸易大学的直属学院之一，经教育部批准于2002年3月成立，归口管理全校网络教育的专科、本科、研究生等各层次的日常工作。贸大远程以学校深厚的国际化背景和国内首屈一指的外经贸特色为依托，立足高、精、特，涵盖专、本、研，面向广大在职从业人员，通过建立远程学习中心，覆盖全国、面向国际，在虚拟空间开展非全日制高等教育，树立对外经济贸易大学数字教育品牌。贸大远程通过各地远程学习中心面向全国招生，目前开设了国际经济与贸易、金融学、法学、商务英语、会计学","code":"112021100","college_id":2716,"college_nature":"公办","edu_directly":false,"email":"yuanzhang@euibe.com","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/2716.jpg","member_ship":"[]","name":"对外经济贸易大学远程教育学院","official_website":null,"old_name":"对外经济贸易大学远程教育学院","property":"财经类","province":"北京","ranking":"2623","ranking_collegetype":"241","recruit_tel":"010- 64495173/5170","recruit_website":"http://www.euibe.com/","tuition_fee":"根据国家主管部门审批，为发展东部、兼顾中部、倾斜西部，根据学习中心所在省、自治区、直辖市的不同经济状况，标准如下：省份元/学分北京120上海","type":"远程教育学院"}],"total":2}
+{
+  "data": [{
+    "addr": "北京市朝阳区惠新东街10号",
+    "brief_introduction": "对外经济贸易大学，座落于首都北京朝阳区。校园草木葱郁，环境幽雅。功能齐全的教学楼，藏书丰富、实现自动化管理的图书馆，拥有卫星地面站和现代化语言实验室的教育技术中心，设备先进齐全的网络与计算中心，可供正式比赛使用的运动场和游泳场，舒适方便的学生公寓，神采飞扬的学生，温文尔雅的教师……一切，都透露出这所高等学府的青春活力、现代气息。对外经济贸易大学创建于1951年。2000年以前为原对外贸易经济合作部所属。2000年6月，原中国金融学院与原对外经济贸易大学合并成立新的对外经济贸易大学，转为教育部直属",
+    "code": "112001600",
+    "college_id": 53,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zhaosheng@uibe.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/53.jpg",
+    "member_ship": "教育部",
+    "name": "对外经济贸易大学",
+    "official_website": null,
+    "old_name": "对外经济贸易大学",
+    "property": "财经类",
+    "province": "北京",
+    "ranking": "108",
+    "ranking_collegetype": "13",
+    "recruit_tel": "（010）64492178",
+    "recruit_website": "http://www.uibe.edu.cn",
+    "tuition_fee": "2015年学费为外国语言类本科生每学年6000元人民币，其他专业本科生每学年5000元人民币。学校将根据住宿条件的不同向在校生收取不同标准的住宿费，男生宿舍住宿费一般每学年750元，女生宿舍住宿费一般每学年900元。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

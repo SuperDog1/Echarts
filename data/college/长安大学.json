@@ -1,1 +1,26 @@
-{"data":[{"addr":"陕西省西安市南二环路中段","brief_introduction":"长安大学直属国家教育部，是教育部和交通运输部、国土资源部、住房和城乡建设部、陕西省人民政府共建的国家\"211工程\"重点建设大学，是国家\"985工程\"优势学科创新平台建设高校，2000年由始建于二十世纪50年代初的原西安公路交通大学、西安工程学院、西北建筑工程学院合并组建而成。学校座落于历史文化名城西安，现有校本部和渭水2个校区、太白山和梁山2个教学实习基地，校园面积3745亩。校本部毗邻西安大雁塔，渭水校区位于国家级西安经济技术开发区。60多年来，长安大学逐步发展成为以工为主，理工结合，人文社会","code":"612000200","college_id":36,"college_nature":"公办","edu_directly":true,"email":"zsb@chd.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/36.jpg","member_ship":"教育部","name":"长安大学","official_website":null,"old_name":"长安大学","property":"理工类","province":"陕西","ranking":"12","ranking_collegetype":"4","recruit_tel":"029-82334104","recruit_website":"http://www.chd.edu.cn/","tuition_fee":"第十二条我校按照教育部有关规定及陕西省物价局核定标准收取学费和住宿费。如果国家调整当年本科生学费收费标准，我校将按照新规定收取学费。","type":"普通本科"},{"addr":"陕西省西安市富鱼路81号长安大学兴华学院招生办公室","brief_introduction":"[]","code":"612010400","college_id":2632,"college_nature":"民办","edu_directly":false,"email":"zs@chdxhxy.com","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/2632.jpg","member_ship":"陕西省教育厅","name":"长安大学兴华学院","official_website":null,"old_name":"长安大学兴华学院","property":"综合类","province":"陕西","ranking":"1487","ranking_collegetype":"387","recruit_tel":"029-88751800 88751018","recruit_website":"http://www.chdxhxy.com","tuition_fee":"第二十二条学费标准依据陕西省物价部门核定标准执行。","type":"独立学院"}],"total":2}
+{
+  "data": [{
+    "addr": "陕西省西安市南二环路中段",
+    "brief_introduction": "长安大学直属国家教育部，是教育部和交通运输部、国土资源部、住房和城乡建设部、陕西省人民政府共建的国家\"211工程\"重点建设大学，是国家\"985工程\"优势学科创新平台建设高校，2000年由始建于二十世纪50年代初的原西安公路交通大学、西安工程学院、西北建筑工程学院合并组建而成。学校座落于历史文化名城西安，现有校本部和渭水2个校区、太白山和梁山2个教学实习基地，校园面积3745亩。校本部毗邻西安大雁塔，渭水校区位于国家级西安经济技术开发区。60多年来，长安大学逐步发展成为以工为主，理工结合，人文社会",
+    "code": "612000200",
+    "college_id": 36,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zsb@chd.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/36.jpg",
+    "member_ship": "教育部",
+    "name": "长安大学",
+    "official_website": null,
+    "old_name": "长安大学",
+    "property": "理工类",
+    "province": "陕西",
+    "ranking": "12",
+    "ranking_collegetype": "4",
+    "recruit_tel": "029-82334104",
+    "recruit_website": "http://www.chd.edu.cn/",
+    "tuition_fee": "第十二条我校按照教育部有关规定及陕西省物价局核定标准收取学费和住宿费。如果国家调整当年本科生学费收费标准，我校将按照新规定收取学费。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

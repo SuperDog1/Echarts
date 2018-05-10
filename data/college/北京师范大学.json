@@ -1,1 +1,26 @@
-{"data":[{"addr":"北京市海淀区新街口外大街19号","brief_introduction":"北京师范大学是一所以教师教育、教育科学和文理基础科学为主要特色的著名学府。2002年9月8日，在人民大会堂举行建校100周年庆祝大会。江泽民等党和国家领导同志出席庆祝大会。江泽民同志在会上充分肯定了百年北师大的办学成就，并强调实施科教兴国战略，大力推进教育创新。面向新世纪，北京师范大学确立了建设综合性、有特色、研究型世界知名高水平大学的奋斗目标。100年以前，清末戊戌变法因“需材孔亟”，开启民智，改变中国屡受列强欺凌的状况，在当时中国最高学府和最高教育行政机关的京师大学堂设立了师范馆，成为北京师","code":"112001300","college_id":52,"college_nature":"公办","edu_directly":true,"email":"zsb@bnu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/52.jpg","member_ship":"教育部","name":"北京师范大学","official_website":null,"old_name":"北京师范大学","property":"师范类","province":"北京","ranking":"53","ranking_collegetype":"1","recruit_tel":"010－58807962","recruit_website":"http://www.bnu.edu.cn","tuition_fee":"学费：艺术类专业8000-10000元/学年;外语类专业6000元/学年;其他专业4800—5400元/学年。联系电话：010-58807962。网址：www.bnu.edu.cn。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "北京市海淀区新街口外大街19号",
+    "brief_introduction": "北京师范大学是一所以教师教育、教育科学和文理基础科学为主要特色的著名学府。2002年9月8日，在人民大会堂举行建校100周年庆祝大会。江泽民等党和国家领导同志出席庆祝大会。江泽民同志在会上充分肯定了百年北师大的办学成就，并强调实施科教兴国战略，大力推进教育创新。面向新世纪，北京师范大学确立了建设综合性、有特色、研究型世界知名高水平大学的奋斗目标。100年以前，清末戊戌变法因“需材孔亟”，开启民智，改变中国屡受列强欺凌的状况，在当时中国最高学府和最高教育行政机关的京师大学堂设立了师范馆，成为北京师",
+    "code": "112001300",
+    "college_id": 52,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zsb@bnu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/52.jpg",
+    "member_ship": "教育部",
+    "name": "北京师范大学",
+    "official_website": null,
+    "old_name": "北京师范大学",
+    "property": "师范类",
+    "province": "北京",
+    "ranking": "53",
+    "ranking_collegetype": "1",
+    "recruit_tel": "010－58807962",
+    "recruit_website": "http://www.bnu.edu.cn",
+    "tuition_fee": "学费：艺术类专业8000-10000元/学年;外语类专业6000元/学年;其他专业4800—5400元/学年。联系电话：010-58807962。网址：www.bnu.edu.cn。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

@@ -1,1 +1,26 @@
-{"data":[{"addr":"哈尔滨市南岗区南通大街145号","brief_introduction":"哈尔滨工程大学坐落于美丽的松花江畔——北国冰城哈尔滨市。学校前身是创建于1953年的中国人民解放军军事工程学院（“哈军工”）。1970年，在“哈军工”原址，以海军工程系全建制及其他各系（部）部分干部教师为基础，组建哈尔滨船舶工程学院；1978年，被国务院确定为全国重点大学；1982年，成为首批具有博士、硕士学位授予权的单位；1994年，更名为哈尔滨工程大学；1996年，进入首批“211工程”建设高校行列；2002年，被教育部批准设立研究生院；2007年，由国防科工委、教育部、黑龙江省政府、海军四","code":"232000300","college_id":124,"college_nature":"公办","edu_directly":false,"email":"zhaoban@hrbeu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/124.jpg","member_ship":"工业和信息化部","name":"哈尔滨工程大学","official_website":null,"old_name":"哈尔滨工程大学 曾用名：中国人民解放军军事工程学院","property":"理工类","province":"黑龙江","ranking":"192","ranking_collegetype":"89","recruit_tel":"0451-82519740；82519566","recruit_website":"http://www.hrbeu.edu.cn/","tuition_fee":"学校按照教育部有关规定和黑龙江省物价局、黑龙江省教育厅2015年核定的项目与标准收取学费和住宿费。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "哈尔滨市南岗区南通大街145号",
+    "brief_introduction": "哈尔滨工程大学坐落于美丽的松花江畔——北国冰城哈尔滨市。学校前身是创建于1953年的中国人民解放军军事工程学院（“哈军工”）。1970年，在“哈军工”原址，以海军工程系全建制及其他各系（部）部分干部教师为基础，组建哈尔滨船舶工程学院；1978年，被国务院确定为全国重点大学；1982年，成为首批具有博士、硕士学位授予权的单位；1994年，更名为哈尔滨工程大学；1996年，进入首批“211工程”建设高校行列；2002年，被教育部批准设立研究生院；2007年，由国防科工委、教育部、黑龙江省政府、海军四",
+    "code": "232000300",
+    "college_id": 124,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "zhaoban@hrbeu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/124.jpg",
+    "member_ship": "工业和信息化部",
+    "name": "哈尔滨工程大学",
+    "official_website": null,
+    "old_name": "哈尔滨工程大学 曾用名：中国人民解放军军事工程学院",
+    "property": "理工类",
+    "province": "黑龙江",
+    "ranking": "192",
+    "ranking_collegetype": "89",
+    "recruit_tel": "0451-82519740；82519566",
+    "recruit_website": "http://www.hrbeu.edu.cn/",
+    "tuition_fee": "学校按照教育部有关规定和黑龙江省物价局、黑龙江省教育厅2015年核定的项目与标准收取学费和住宿费。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

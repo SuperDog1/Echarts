@@ -1,1 +1,26 @@
-{"data":[{"addr":"辽宁省沈阳市和平区文化路3巷11号","brief_introduction":"东北大学始建于1923年。东北大学是教育部直属的国家重点大学，坐落在东北最大的中心城市沈阳。学校占地总面积203万平方米,建筑面积100万平方米。东北大学始建于1923年4月，是一所具有爱国主义光荣传统的大学。1928年8月至1937年1月，著名爱国将领张学良将军兼任校长。“九?一八”事变后，东北大学被迫先后迁徙北平、开封、西安、四川三台等地。在此期间，广大师生积极参加爱国抗日运动，是“一二?九”运动的先锋队和主力军。1","code":"212000200","college_id":134,"college_nature":"公办","edu_directly":true,"email":"ddzsb@mail.neu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/134.jpg","member_ship":"教育部","name":"东北大学","official_website":null,"old_name":"东北大学","property":"理工类","province":"辽宁","ranking":"44","ranking_collegetype":"15","recruit_tel":"024-83687392","recruit_website":"http://www.neu.edu.cn","tuition_fee":"根据国家规定，学生入学须缴纳学费、住宿费。学校大部分专业学费为2500-5200元/年，国家示范性软件学院专业学费大一大二5200元/年，大三大四16000元/年，生物医学工程（中外合作办学）学费18000元/年。住宿费标准为500-1200元/年。收费标准详见我校在各省（区、市）公布招生计划中的有关说明。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "辽宁省沈阳市和平区文化路3巷11号",
+    "brief_introduction": "东北大学始建于1923年。东北大学是教育部直属的国家重点大学，坐落在东北最大的中心城市沈阳。学校占地总面积203万平方米,建筑面积100万平方米。东北大学始建于1923年4月，是一所具有爱国主义光荣传统的大学。1928年8月至1937年1月，著名爱国将领张学良将军兼任校长。“九?一八”事变后，东北大学被迫先后迁徙北平、开封、西安、四川三台等地。在此期间，广大师生积极参加爱国抗日运动，是“一二?九”运动的先锋队和主力军。1",
+    "code": "212000200",
+    "college_id": 134,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "ddzsb@mail.neu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/134.jpg",
+    "member_ship": "教育部",
+    "name": "东北大学",
+    "official_website": null,
+    "old_name": "东北大学",
+    "property": "理工类",
+    "province": "辽宁",
+    "ranking": "44",
+    "ranking_collegetype": "15",
+    "recruit_tel": "024-83687392",
+    "recruit_website": "http://www.neu.edu.cn",
+    "tuition_fee": "根据国家规定，学生入学须缴纳学费、住宿费。学校大部分专业学费为2500-5200元/年，国家示范性软件学院专业学费大一大二5200元/年，大三大四16000元/年，生物医学工程（中外合作办学）学费18000元/年。住宿费标准为500-1200元/年。收费标准详见我校在各省（区、市）公布招生计划中的有关说明。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

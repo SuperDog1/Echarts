@@ -1,1 +1,26 @@
-{"data":[{"addr":"上海市杨浦区国定路777号","brief_introduction":"上海财经大学已有91年历史，现为教育部直属、国家“211工程”重点建设高校，并进入国家建设高水平大学项目行列。1997年，江泽民同志亲笔题词：“面向新世纪把上海财经大学建设成为具有一流水平的社会主义大学”。上海财经大学源于1917年南京高等师范学校创办的商科，著名社会活动家、爱国民主人士杨杏佛任商科主任。南京高等师范学校扩展为国立东南大学时，为适应商学人才培养的需要，商科迁址上海，于1921年成立上海商科大学，这是中国教育史上最早的商科大学，著名教育家郭秉文任校长，著名经济学家马寅初任教务主任。","code":"312000800","college_id":130,"college_nature":"公办","edu_directly":true,"email":"zb@mail.shufe.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/130.jpg","member_ship":"教育部","name":"上海财经大学","official_website":null,"old_name":"上海财经大学","property":"财经类","province":"上海","ranking":"47","ranking_collegetype":"3","recruit_tel":"021-65903479","recruit_website":"http://www.shufe.edu.cn","tuition_fee":"我校按照教育部有关规定及上海市物价局核定标准收取学费和住宿费。学费：中外合作项目本科专业15000元/年，非中外合作项目本科专业5000元/年。超过专业培养计划的学分，按我校学分制实施办法另行收取。住宿费：1200元/学年。","type":"普通本科"},{"addr":"上海市杨浦区武东路100号上海财经大学内","brief_introduction":"上海国际银行金融学院(SIBFI)是在中华人民共和国教育主管部门的许可和上海市教委的批准下成立，隶属于上海财经大学的中外合作独立二级学院。学院创始于2004年4月，依托主办方上海财经大学(SHUFE)和德国法兰克福金融管理学院(FrankfurtSchoolofFinanceandManagement)优渥的中外财经教育基因，秉承上海财经大学“厚德博学，经济匡时”的校训，为培养、培育、培训一流的优秀财经专业人才服务。学院凭籍十余年的励精图治和日积月累的教育资源，已经形成了聚焦行业的财经培训聚合平","code":"312910403","college_id":3246,"college_nature":"[]","edu_directly":false,"email":"--","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/3246.jpg","member_ship":"[]","name":"上海财经大学国际银行金融学院","official_website":null,"old_name":"上海财经大学国际银行金融学院","property":"[]","province":"上海","ranking":"2853","ranking_collegetype":"0","recruit_tel":"021-65268626","recruit_website":"http://www.sibfi.org.cn/","tuition_fee":"[]","type":"[]"}],"total":2}
+{
+  "data": [{
+    "addr": "上海市杨浦区国定路777号",
+    "brief_introduction": "上海财经大学已有91年历史，现为教育部直属、国家“211工程”重点建设高校，并进入国家建设高水平大学项目行列。1997年，江泽民同志亲笔题词：“面向新世纪把上海财经大学建设成为具有一流水平的社会主义大学”。上海财经大学源于1917年南京高等师范学校创办的商科，著名社会活动家、爱国民主人士杨杏佛任商科主任。南京高等师范学校扩展为国立东南大学时，为适应商学人才培养的需要，商科迁址上海，于1921年成立上海商科大学，这是中国教育史上最早的商科大学，著名教育家郭秉文任校长，著名经济学家马寅初任教务主任。",
+    "code": "312000800",
+    "college_id": 130,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zb@mail.shufe.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/130.jpg",
+    "member_ship": "教育部",
+    "name": "上海财经大学",
+    "official_website": null,
+    "old_name": "上海财经大学",
+    "property": "财经类",
+    "province": "上海",
+    "ranking": "47",
+    "ranking_collegetype": "3",
+    "recruit_tel": "021-65903479",
+    "recruit_website": "http://www.shufe.edu.cn",
+    "tuition_fee": "我校按照教育部有关规定及上海市物价局核定标准收取学费和住宿费。学费：中外合作项目本科专业15000元/年，非中外合作项目本科专业5000元/年。超过专业培养计划的学分，按我校学分制实施办法另行收取。住宿费：1200元/学年。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

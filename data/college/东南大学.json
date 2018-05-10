@@ -1,1 +1,26 @@
-{"data":[{"addr":"南京市江宁区东南大学路2号","brief_introduction":"东南大学是中央直管、教育部直属的全国重点大学，是国家“985工程”和“211工程”重点建设的大学之一。是国务院授权首批可授予博士、硕士、学士学位，审定教授、副教授任职资格及自批增列博士生导师的高校。学校座落在历史文化名城南京，主校区位于四牌楼2号，是六朝宫苑的遗址，也曾是明朝国子监所在地，千百年来书声不断，学泽绵延。东南大学是我国最早建立的高等学府之一，素有“学府圣地”和“东南学府第一流”之美誉。东南大学前身是创建于1902年的三江师范学堂。1921年经近代著名教育家郭秉文先生竭力倡导，以南京高","code":"322000200","college_id":109,"college_nature":"公办","edu_directly":true,"email":"zhaoban@seu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/109.jpg","member_ship":"教育部","name":"东南大学","official_website":null,"old_name":"东南大学","property":"综合类","province":"江苏","ranking":"26","ranking_collegetype":"16","recruit_tel":"025-52090271","recruit_website":"http://www.seu.edu.cn/","tuition_fee":"我校按照教育部有关规定及江苏省物价局核定标准收取学费和住宿费。","type":"普通本科"},{"addr":"江苏省南京市浦口区东大路6号","brief_introduction":"东南大学成贤学院成立于2003年6月，是经教育部批准，由东南大学与优质社会资源合作举办的独立学院。学院具有独立法人资格、独立校园、独立颁发文凭和实行相对独立的管理运作,学校座落在历史文化名城南京。东南大学成贤学院的举办学校东南大学是中央直管，教育部直属的全国重点大学，是国家“985工程”和“211工程”重点建设的大学之一。是全国首批通过国家“本科教学优秀评价”的三所重点大学之一，是全国高校科研十强之一。东南大学成贤学院实行董事会领导下的院长负责制，中国工程院院士、东南大学校长顾冠群任董事会董事长","code":"322000201","college_id":1145,"college_nature":"民办","edu_directly":false,"email":"cxzb@cxxy.seu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/1145.jpg","member_ship":"江苏省教育厅","name":"东南大学成贤学院","official_website":null,"old_name":"东南大学成贤学院","property":"综合类","province":"江苏","ranking":"779","ranking_collegetype":"200","recruit_tel":"025-58690736","recruit_website":"http://cxxy.seu.edu.cn","tuition_fee":"收费标准及奖助学措施1、根据国家规定，学生入学时应交纳学费、住宿费及其它有关费用。(1)学费：新生入学报到时预缴全年学费：人文社科类专业14000元/年·生，理工科类专业15000元/年·生，医学、艺术类专业16500元/年·生(以江苏省物价局审批标准为准)。(2)住宿费：1200-1500元/年·生(视具体住宿条件确定)。2、学院设有各类奖学金、助学金，提供勤工助学岗位，用以奖励在校优秀学生和资助经济困难学生顺利完成学业。","type":"独立学院"}],"total":2}
+{
+  "data": [{
+    "addr": "南京市江宁区东南大学路2号",
+    "brief_introduction": "东南大学是中央直管、教育部直属的全国重点大学，是国家“985工程”和“211工程”重点建设的大学之一。是国务院授权首批可授予博士、硕士、学士学位，审定教授、副教授任职资格及自批增列博士生导师的高校。学校座落在历史文化名城南京，主校区位于四牌楼2号，是六朝宫苑的遗址，也曾是明朝国子监所在地，千百年来书声不断，学泽绵延。东南大学是我国最早建立的高等学府之一，素有“学府圣地”和“东南学府第一流”之美誉。东南大学前身是创建于1902年的三江师范学堂。1921年经近代著名教育家郭秉文先生竭力倡导，以南京高",
+    "code": "322000200",
+    "college_id": 109,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zhaoban@seu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/109.jpg",
+    "member_ship": "教育部",
+    "name": "东南大学",
+    "official_website": null,
+    "old_name": "东南大学",
+    "property": "综合类",
+    "province": "江苏",
+    "ranking": "26",
+    "ranking_collegetype": "16",
+    "recruit_tel": "025-52090271",
+    "recruit_website": "http://www.seu.edu.cn/",
+    "tuition_fee": "我校按照教育部有关规定及江苏省物价局核定标准收取学费和住宿费。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

@@ -1,1 +1,26 @@
-{"data":[{"addr":"北京市海淀区中关村南大街27号","brief_introduction":"中央民族大学（MinzuUniversityofChina）坐落于北京学府林立的海淀区，南邻国家图书馆，北依中关村科技园，校园环境典雅，古朴幽美，人文氛围浓郁，具有鲜明的民族特色。中央民族大学的前身是1941年9月中国共产党在延安创办的民族学院。1951年6月，中央民族学院在北京正式成立，乌兰夫任首任院长。1993年11月，更名为中央民族大学。现任校党委书记鄂义太教授、校长陈理教授。党和国家历届领导集体始终关心和重视中央民族大学的建设和发展。建校初至1966年，毛泽东、刘少奇、周恩来、朱德等党和","code":"112001900","college_id":45,"college_nature":"公办","edu_directly":false,"email":"zb@cun.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/45.jpg","member_ship":"国家民族事务委员会","name":"中央民族大学","official_website":null,"old_name":"中央民族大学","property":"民族类","province":"北京","ranking":"159","ranking_collegetype":"1","recruit_tel":"010-68932902 68933922(传真)","recruit_website":"http://www.muc.edu.cn/","tuition_fee":"第三十三条：我校学费标准按当年北京市物价局审批标准执行。文史类各专业5000～6000元/年不等;理工类各专业5300元/年;艺术类各专业8000～10000元/年;预科班4800元/年。部分专业免收学费：民族语类专业(不含“中韩经贸翻译”、“蒙汉双语”、“汉维翻译”、“汉藏翻译”方向)、非西藏生源定向西藏就业专业。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "北京市海淀区中关村南大街27号",
+    "brief_introduction": "中央民族大学（MinzuUniversityofChina）坐落于北京学府林立的海淀区，南邻国家图书馆，北依中关村科技园，校园环境典雅，古朴幽美，人文氛围浓郁，具有鲜明的民族特色。中央民族大学的前身是1941年9月中国共产党在延安创办的民族学院。1951年6月，中央民族学院在北京正式成立，乌兰夫任首任院长。1993年11月，更名为中央民族大学。现任校党委书记鄂义太教授、校长陈理教授。党和国家历届领导集体始终关心和重视中央民族大学的建设和发展。建校初至1966年，毛泽东、刘少奇、周恩来、朱德等党和",
+    "code": "112001900",
+    "college_id": 45,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "zb@cun.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/45.jpg",
+    "member_ship": "国家民族事务委员会",
+    "name": "中央民族大学",
+    "official_website": null,
+    "old_name": "中央民族大学",
+    "property": "民族类",
+    "province": "北京",
+    "ranking": "159",
+    "ranking_collegetype": "1",
+    "recruit_tel": "010-68932902 68933922(传真)",
+    "recruit_website": "http://www.muc.edu.cn/",
+    "tuition_fee": "第三十三条：我校学费标准按当年北京市物价局审批标准执行。文史类各专业5000～6000元/年不等;理工类各专业5300元/年;艺术类各专业8000～10000元/年;预科班4800元/年。部分专业免收学费：民族语类专业(不含“中韩经贸翻译”、“蒙汉双语”、“汉维翻译”、“汉藏翻译”方向)、非西藏生源定向西藏就业专业。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

@@ -1,1 +1,26 @@
-{"data":[{"addr":"上海市杨浦区邯郸路220号","brief_introduction":"复旦大学创建于1905年，原名复旦公学。“复旦”二字由创始人、中国近代知名教育家马相伯先生选定，选自《尚书大传?虞夏传》中“日月光华，旦复旦兮”的名句，意在自强不息，寄托当时中国知识分子自主办学、教育强国的希望。复旦大学经历近百年的沿革。1917年复旦公学改名为私立复旦大学，下设文、理、商三科以及预科和中学部。1937年抗日战争爆发后，学校内迁重庆北碚，并于1941年改为“国立”。1946年学校迁回上海江湾原址。到1949年学校已设立文、理、法、商、农五院20多个系（科）。鲁迅、郭沫若、邹韬奋、","code":"312000100","college_id":132,"college_nature":"公办","edu_directly":true,"email":"admission@fudan.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/132.jpg","member_ship":"教育部","name":"复旦大学","official_website":null,"old_name":"复旦大学","property":"综合类","province":"上海","ranking":"13","ranking_collegetype":"9","recruit_tel":"021-55666668","recruit_website":"http://www.fudan.edu.cn","tuition_fee":"1.学费：按学分收取，按学年预收。各专业预收标准：1）大部分本科专业5000-6500元／学年?人，软件工程专业四年学费总计31000元／人；2）高职：7500元／学年?人。2.住宿费：按实际住宿条件收取，约1200元／学年?人。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "上海市杨浦区邯郸路220号",
+    "brief_introduction": "复旦大学创建于1905年，原名复旦公学。“复旦”二字由创始人、中国近代知名教育家马相伯先生选定，选自《尚书大传?虞夏传》中“日月光华，旦复旦兮”的名句，意在自强不息，寄托当时中国知识分子自主办学、教育强国的希望。复旦大学经历近百年的沿革。1917年复旦公学改名为私立复旦大学，下设文、理、商三科以及预科和中学部。1937年抗日战争爆发后，学校内迁重庆北碚，并于1941年改为“国立”。1946年学校迁回上海江湾原址。到1949年学校已设立文、理、法、商、农五院20多个系（科）。鲁迅、郭沫若、邹韬奋、",
+    "code": "312000100",
+    "college_id": 132,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "admission@fudan.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/132.jpg",
+    "member_ship": "教育部",
+    "name": "复旦大学",
+    "official_website": null,
+    "old_name": "复旦大学",
+    "property": "综合类",
+    "province": "上海",
+    "ranking": "13",
+    "ranking_collegetype": "9",
+    "recruit_tel": "021-55666668",
+    "recruit_website": "http://www.fudan.edu.cn",
+    "tuition_fee": "1.学费：按学分收取，按学年预收。各专业预收标准：1）大部分本科专业5000-6500元／学年?人，软件工程专业四年学费总计31000元／人；2）高职：7500元／学年?人。2.住宿费：按实际住宿条件收取，约1200元／学年?人。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

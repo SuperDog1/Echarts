@@ -1,1 +1,26 @@
-{"data":[{"addr":"北京市海淀区清华东路17号","brief_introduction":"学校简介中国农业大学是国家“211工程”和“985工程”重点建设的教育部直属高校。现任党委书记ahref=\"http://www.cau.edu.cn/col/col10253/index.html\"style=\"cursor:pointer;m","code":"112001000","college_id":557,"college_nature":"公办","edu_directly":true,"email":"zsb@cau.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/557.jpg","member_ship":"教育部","name":"中国农业大学","official_website":null,"old_name":"中国农业大学","property":"农林类","province":"北京","ranking":"116","ranking_collegetype":"2","recruit_tel":"010-62737682","recruit_website":"http://www.cau.edu.cn/","tuition_fee":"我校的收费严格按北京市有关部门的规定执行。2016年普通本科学生(含港澳台地区学生)收费标准为：农学、种子科学与工程、园艺、园林、植物保护、动物科学、草业科学、动物医学、水产养殖学、设施农业科学与工程等专业学费3000元/(生•年)，经济学类(中外合作办学)专业学费按北京市中外合作办学收费标准执行，其余专业学费5000元/(生•年)。住宿费标准：900～1200元/(生•年)。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "北京市海淀区清华东路17号",
+    "brief_introduction": "学校简介中国农业大学是国家“211工程”和“985工程”重点建设的教育部直属高校。现任党委书记ahref=\"http://www.cau.edu.cn/col/col10253/index.html\"style=\"cursor:pointer;m",
+    "code": "112001000",
+    "college_id": 557,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zsb@cau.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/557.jpg",
+    "member_ship": "教育部",
+    "name": "中国农业大学",
+    "official_website": null,
+    "old_name": "中国农业大学",
+    "property": "农林类",
+    "province": "北京",
+    "ranking": "116",
+    "ranking_collegetype": "2",
+    "recruit_tel": "010-62737682",
+    "recruit_website": "http://www.cau.edu.cn/",
+    "tuition_fee": "我校的收费严格按北京市有关部门的规定执行。2016年普通本科学生(含港澳台地区学生)收费标准为：农学、种子科学与工程、园艺、园林、植物保护、动物科学、草业科学、动物医学、水产养殖学、设施农业科学与工程等专业学费3000元/(生•年)，经济学类(中外合作办学)专业学费按北京市中外合作办学收费标准执行，其余专业学费5000元/(生•年)。住宿费标准：900～1200元/(生•年)。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

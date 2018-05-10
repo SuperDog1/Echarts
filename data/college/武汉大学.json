@@ -1,1 +1,26 @@
-{"data":[{"addr":"湖北省武汉市武昌区珞珈山街16号","brief_introduction":"江城多山，珞珈独秀；山上有黉，武汉大学。武汉大学是国家教育部直属重点综合性大学，是国家“985工程”和“211工程”重点建设高校。武汉大学溯源于1893年清末湖广总督张之洞奏请清政府创办的自强学堂，历经传承演变，1928年定名为国立武汉大学，是近代中国第一批国立大学。1946年，学校已形成文、法、理、工、农、医6大学院并驾齐驱的办学格局。新中国成立后，武汉大学受到党和政府的高度重视。1958年，毛泽东主席亲临武大视察。1993年，武汉大学百年校庆之际，江泽民等党和国家领导人题词祝贺。改革开放以来","code":"422000100","college_id":42,"college_nature":"公办","edu_directly":true,"email":"wlxxs@whu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/42.jpg","member_ship":"教育部","name":"武汉大学","official_website":null,"old_name":"武汉大学","property":"综合类","province":"湖北","ranking":"2","ranking_collegetype":"2","recruit_tel":"027-68754231","recruit_website":"http://www.whu.edu.cn/","tuition_fee":"第三十条根据国家规定，学生入学须交纳学费、住宿费以及书本费、各种证件(卡)工本费等费用。具体收费标准按湖北省物价部门核定的标准执行。","type":"普通本科"},{"addr":"湖北省武汉市东湖高新技术开发区中华科技产业园玉屏大道9号","brief_introduction":"◆中国工程院院士、原武汉大学校长刘经南教授为学院首席顾问◆各系主任均由武汉大学教授、博士生导师担任◆学院与武汉科技大学联合开展研究生培养◆湖北省转型发展试点本科高校◆学院在全国软件大赛、电子设计竞赛等竞赛中的获奖等级和获奖人数位列全国同类院校之首◆大学英语四六级通过率高于部分二本院校，学生考研率、就业率均居湖北同类高校前五◆2013年全国独立学院本科毕业生质量排名中位列湖北省独立学院第二位◆21世纪中国教育改革创新示范院校◆2015年位列中国综合类独立学院第15位，跻身中国高水平独立学院；新生质","code":"422000102","college_id":1974,"college_nature":"民办","edu_directly":false,"email":"luojiazhaosheng@sina.com","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/1974.jpg","member_ship":"湖北省教育厅","name":"武汉大学珞珈学院","official_website":null,"old_name":"武汉大学珞珈学院","property":"综合类","province":"湖北","ranking":"810","ranking_collegetype":"210","recruit_tel":"027-87934566、87934577","recruit_website":"http://luojia-whu.cn/","tuition_fee":"第十三条新生入学时，按湖北省物价部门核定的收费项目和标准缴纳学费、住宿费等。","type":"独立学院"},{"addr":"武汉市武昌区八一路483号新一号楼","brief_introduction":"一、学院简介：武汉大学武汉校友会专修学院建院于1983年，位于东湖之滨、珞珈山下的武汉大学三环学生公寓，由时任武汉大学校长刘道玉教授亲自授牌成立，是全国高等教育自学考试委员会(教育部考试中心)登记备案的助学单位,湖北省教育厅确认合格的高等教育机构。下设有艺术学系、经济与管理系、法学系、护理学系、机电工程学系以及研究生处等6个系部，开设有广告学、环境艺术设计、金融、英语、财务管理、物流管理、行政管理、法学、护理学、计算机网络、电子工程、建筑工程等12个本科专业、15个专科专业及工程硕士、农业推广硕","code":"422010700","college_id":2603,"college_nature":"[]","edu_directly":false,"email":"whus@whus.edu.cn","level":"专科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/2603.jpg","member_ship":"湖北省","name":"武汉大学武汉校友会专修学院","official_website":null,"old_name":"武汉大学武汉校友会专修学院","property":"综合类","province":"湖北","ranking":"2480","ranking_collegetype":"639","recruit_tel":"027-87348750 87348753 付老师","recruit_website":"http://www.whus.edu.cn","tuition_fee":"收费标准：按湖北省物价部门规定标准收费；","type":"其它"}],"total":3}
+{
+  "data": [{
+    "addr": "湖北省武汉市武昌区珞珈山街16号",
+    "brief_introduction": "江城多山，珞珈独秀；山上有黉，武汉大学。武汉大学是国家教育部直属重点综合性大学，是国家“985工程”和“211工程”重点建设高校。武汉大学溯源于1893年清末湖广总督张之洞奏请清政府创办的自强学堂，历经传承演变，1928年定名为国立武汉大学，是近代中国第一批国立大学。1946年，学校已形成文、法、理、工、农、医6大学院并驾齐驱的办学格局。新中国成立后，武汉大学受到党和政府的高度重视。1958年，毛泽东主席亲临武大视察。1993年，武汉大学百年校庆之际，江泽民等党和国家领导人题词祝贺。改革开放以来",
+    "code": "422000100",
+    "college_id": 42,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "wlxxs@whu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/42.jpg",
+    "member_ship": "教育部",
+    "name": "武汉大学",
+    "official_website": null,
+    "old_name": "武汉大学",
+    "property": "综合类",
+    "province": "湖北",
+    "ranking": "2",
+    "ranking_collegetype": "2",
+    "recruit_tel": "027-68754231",
+    "recruit_website": "http://www.whu.edu.cn/",
+    "tuition_fee": "第三十条根据国家规定，学生入学须交纳学费、住宿费以及书本费、各种证件(卡)工本费等费用。具体收费标准按湖北省物价部门核定的标准执行。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

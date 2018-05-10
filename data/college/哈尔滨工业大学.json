@@ -1,1 +1,26 @@
-{"data":[{"addr":"黑龙江省哈尔滨市南岗区西大直街92号","brief_introduction":"哈尔滨工业大学隶属于工业和信息化部，是由工信部、教育部、黑龙江省共建的国家重点大学，是首批进入国家“211工程”和“985工程”建设的若干所大学之一。1920年，中东铁路管理局为培养工程技术人员创办了哈尔滨中俄工业学校——即哈尔滨工业大学的前身，学校成为中国近代培养工业技术人才的摇篮。新中国成立后，哈尔滨工业大学成为全国学习前苏联高等教育办学模式的两所大学之一，此后学校一直得到国家的重点建设。2000年，同根同源的哈尔滨工业大学、哈尔滨建筑大学合并组建新的哈尔滨工业大学。如今，学校已经发展成为一","code":"232000200","college_id":34,"college_nature":"公办","edu_directly":false,"email":"hitzsb@hit.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/34.jpg","member_ship":"工业和信息化部","name":"哈尔滨工业大学","official_website":null,"old_name":"哈尔滨工业大学","property":"理工类","province":"黑龙江","ranking":"42","ranking_collegetype":"14","recruit_tel":"0451-86414671、86414771","recruit_website":"http://www.hit.edu.cn","tuition_fee":"学校按照教育部有关规定及黑龙江省物价局核定标准收取学费和住宿费。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "黑龙江省哈尔滨市南岗区西大直街92号",
+    "brief_introduction": "哈尔滨工业大学隶属于工业和信息化部，是由工信部、教育部、黑龙江省共建的国家重点大学，是首批进入国家“211工程”和“985工程”建设的若干所大学之一。1920年，中东铁路管理局为培养工程技术人员创办了哈尔滨中俄工业学校——即哈尔滨工业大学的前身，学校成为中国近代培养工业技术人才的摇篮。新中国成立后，哈尔滨工业大学成为全国学习前苏联高等教育办学模式的两所大学之一，此后学校一直得到国家的重点建设。2000年，同根同源的哈尔滨工业大学、哈尔滨建筑大学合并组建新的哈尔滨工业大学。如今，学校已经发展成为一",
+    "code": "232000200",
+    "college_id": 34,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "hitzsb@hit.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/34.jpg",
+    "member_ship": "工业和信息化部",
+    "name": "哈尔滨工业大学",
+    "official_website": null,
+    "old_name": "哈尔滨工业大学",
+    "property": "理工类",
+    "province": "黑龙江",
+    "ranking": "42",
+    "ranking_collegetype": "14",
+    "recruit_tel": "0451-86414671、86414771",
+    "recruit_website": "http://www.hit.edu.cn",
+    "tuition_fee": "学校按照教育部有关规定及黑龙江省物价局核定标准收取学费和住宿费。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

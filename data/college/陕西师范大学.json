@@ -1,1 +1,26 @@
-{"data":[{"addr":"西安市长安南路199号","brief_introduction":"陕西师范大学是教育部直属、国家“211工程”重点建设的一所师范大学，是国家培养高等院校、中等学校师资和教育管理干部的重要基地，被誉为西北地区“教师的摇篮”。学校创建于1944年，前身是陕西省立师范专科学校，1954年定名为西安师范学院。1960年与陕西师范学院合并，成立陕西师范大学，1978年划归教育部直属。建校60多年来，在刘泽如、李绵、郭琦等老一代教育家的领导下，在几代师大人的努力下，学校立足西部，面向全国，已发展成为一所有重要影响的综合性一流师范大学，为国家培养各类毕业生13万余人，形成“","code":"612000500","college_id":334,"college_nature":"公办","edu_directly":true,"email":"jwzb@snnu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/334.jpg","member_ship":"教育部","name":"陕西师范大学","official_website":null,"old_name":"陕西师范大学 曾用名：西安师范学院,陕西师范学院","property":"师范类","province":"陕西","ranking":"156","ranking_collegetype":"7","recruit_tel":"029-85310330","recruit_website":"http://www.snnu.edu.cn","tuition_fee":"根据国家规定，学生入学须缴纳学费、住宿费等费用。具体收费标准按照陕西省物价局核定的标准执行，免费师范生不缴纳学费、住宿费，并享受国家有关补助政策，详见我校招生简章。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "西安市长安南路199号",
+    "brief_introduction": "陕西师范大学是教育部直属、国家“211工程”重点建设的一所师范大学，是国家培养高等院校、中等学校师资和教育管理干部的重要基地，被誉为西北地区“教师的摇篮”。学校创建于1944年，前身是陕西省立师范专科学校，1954年定名为西安师范学院。1960年与陕西师范学院合并，成立陕西师范大学，1978年划归教育部直属。建校60多年来，在刘泽如、李绵、郭琦等老一代教育家的领导下，在几代师大人的努力下，学校立足西部，面向全国，已发展成为一所有重要影响的综合性一流师范大学，为国家培养各类毕业生13万余人，形成“",
+    "code": "612000500",
+    "college_id": 334,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "jwzb@snnu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/334.jpg",
+    "member_ship": "教育部",
+    "name": "陕西师范大学",
+    "official_website": null,
+    "old_name": "陕西师范大学 曾用名：西安师范学院,陕西师范学院",
+    "property": "师范类",
+    "province": "陕西",
+    "ranking": "156",
+    "ranking_collegetype": "7",
+    "recruit_tel": "029-85310330",
+    "recruit_website": "http://www.snnu.edu.cn",
+    "tuition_fee": "根据国家规定，学生入学须缴纳学费、住宿费等费用。具体收费标准按照陕西省物价局核定的标准执行，免费师范生不缴纳学费、住宿费，并享受国家有关补助政策，详见我校招生简章。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

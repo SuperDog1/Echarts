@@ -1,1 +1,26 @@
-{"data":[{"addr":"甘肃省兰州市天水南路222号","brief_introduction":"【基本情况】兰州大学是教育部直属的全国重点综合性大学，是国家“985工程”和“211工程”重点建设高校之一。学校创建于1909年，其前身是清末新政期间设立的甘肃法政学堂，是甘肃近代高等教育开端之标志，开启了西北高等教育的先河。1928年扩建为兰州中山大学，1945年定名为国立兰州大学。新中国成立后，兰州大学坚持党的教育方针，坚持正确的办学方向，发展壮大，迅速崛起。在高等学校院系调整中，被确定为国家十四所综合性大学之一；在“开发大西北”、“建立战略后方”的战略目标指引下，成为国家高等教育格局中具有","code":"622000100","college_id":97,"college_nature":"公办","edu_directly":true,"email":"zsb@lzu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/97.jpg","member_ship":"教育部","name":"兰州大学","official_website":null,"old_name":"兰州大学 曾用名：兰州中山大学、甘肃法政学堂","property":"综合类","province":"甘肃","ranking":"51","ranking_collegetype":"30","recruit_tel":"0931-8912116","recruit_website":"http://www.lzu.edu.cn/","tuition_fee":"十一、各专业收费标准详见各省级招生部门公布的“兰州大学2016年普通高等学校招生来源计划”。住宿费为1200元/学年（4人/间）。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "甘肃省兰州市天水南路222号",
+    "brief_introduction": "【基本情况】兰州大学是教育部直属的全国重点综合性大学，是国家“985工程”和“211工程”重点建设高校之一。学校创建于1909年，其前身是清末新政期间设立的甘肃法政学堂，是甘肃近代高等教育开端之标志，开启了西北高等教育的先河。1928年扩建为兰州中山大学，1945年定名为国立兰州大学。新中国成立后，兰州大学坚持党的教育方针，坚持正确的办学方向，发展壮大，迅速崛起。在高等学校院系调整中，被确定为国家十四所综合性大学之一；在“开发大西北”、“建立战略后方”的战略目标指引下，成为国家高等教育格局中具有",
+    "code": "622000100",
+    "college_id": 97,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zsb@lzu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/97.jpg",
+    "member_ship": "教育部",
+    "name": "兰州大学",
+    "official_website": null,
+    "old_name": "兰州大学 曾用名：兰州中山大学、甘肃法政学堂",
+    "property": "综合类",
+    "province": "甘肃",
+    "ranking": "51",
+    "ranking_collegetype": "30",
+    "recruit_tel": "0931-8912116",
+    "recruit_website": "http://www.lzu.edu.cn/",
+    "tuition_fee": "十一、各专业收费标准详见各省级招生部门公布的“兰州大学2016年普通高等学校招生来源计划”。住宿费为1200元/学年（4人/间）。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

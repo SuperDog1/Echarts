@@ -1,1 +1,26 @@
-{"data":[{"addr":"山西省太原市迎泽西大街79号（迎西校区）","brief_introduction":"太原理工大学的前身是创立于1902年的国立山西大学堂西学专斋，是我国最早成立的三所国立大学之一；历经山西大学校工科、山西大学工学院；1953年独立建校，定名太原工学院，直属高教部；1962年归属山西省；1984年更名为太原工业大学。1997年太原工业大学与始建于1958年直属煤炭部的山西矿业学院合并，组建为太原理工大学。同年，学校被确定为国家“211工程”重点建设大学。学校现有迎西、虎峪、柏林、明向等四个校区，占地面积3201亩，公共校舍建筑面积121万平方米；现面向全国31个省、市、自治区招生","code":"142000200","college_id":139,"college_nature":"公办","edu_directly":false,"email":"zsb@tyut.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/139.jpg","member_ship":"山西省教育厅","name":"太原理工大学","official_website":null,"old_name":"太原理工大学","property":"理工类","province":"山西","ranking":"96","ranking_collegetype":"43","recruit_tel":"0351-6014101,6014965,6014020,6011981","recruit_website":"http://www2015.tyut.edu.cn/cn/index.html.cn/cn/index.html","tuition_fee":"第三十七条严格执行山西省物价部门批准的收费标准。","type":"普通本科"},{"addr":"山西省太原市新晋祠路45号","brief_introduction":"太原理工大学现代科技学院是由太原理工大学和中国煤炭博物馆共同举办的独立学院，是经国家教育部和山西省人民政府批准成立的实施本科学历教育的高等学校。太原理工大学是一所具有百余年办学历史和深厚文化底蕴的高等学府，是国家“211工程”重点建设的大学，具有丰富的办学经验和雄厚的教学资源，是国家培养高层次专业人才和进行多学科、高水平学科研究的重要基地。现代科技学院充分发挥其智力、人才资源优势，不断加强独立学院教师队伍和管理队伍的建设，建立并不断完善独立学院教学水平的检测和评估体系，有效保证了办学质量。中国煤","code":"142000201","college_id":2325,"college_nature":"民办","edu_directly":false,"email":"jiaowuchu@tyut.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/2325.jpg","member_ship":"山西省教育厅","name":"太原理工大学现代科技学院","official_website":null,"old_name":"太原理工大学现代科技学院","property":"理工类","province":"山西","ranking":"1107","ranking_collegetype":"335","recruit_tel":"0351－6111205","recruit_website":"http://www.xdkj.tyut.edu.cn/","tuition_fee":"严格按照当年山西省物价部门核准的收费标准执行。","type":"独立学院"}],"total":2}
+{
+  "data": [{
+    "addr": "山西省太原市迎泽西大街79号（迎西校区）",
+    "brief_introduction": "太原理工大学的前身是创立于1902年的国立山西大学堂西学专斋，是我国最早成立的三所国立大学之一；历经山西大学校工科、山西大学工学院；1953年独立建校，定名太原工学院，直属高教部；1962年归属山西省；1984年更名为太原工业大学。1997年太原工业大学与始建于1958年直属煤炭部的山西矿业学院合并，组建为太原理工大学。同年，学校被确定为国家“211工程”重点建设大学。学校现有迎西、虎峪、柏林、明向等四个校区，占地面积3201亩，公共校舍建筑面积121万平方米；现面向全国31个省、市、自治区招生",
+    "code": "142000200",
+    "college_id": 139,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "zsb@tyut.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/139.jpg",
+    "member_ship": "山西省教育厅",
+    "name": "太原理工大学",
+    "official_website": null,
+    "old_name": "太原理工大学",
+    "property": "理工类",
+    "province": "山西",
+    "ranking": "96",
+    "ranking_collegetype": "43",
+    "recruit_tel": "0351-6014101,6014965,6014020,6011981",
+    "recruit_website": "http://www2015.tyut.edu.cn/cn/index.html.cn/cn/index.html",
+    "tuition_fee": "第三十七条严格执行山西省物价部门批准的收费标准。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

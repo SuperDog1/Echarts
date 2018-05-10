@@ -1,1 +1,26 @@
-{"data":[{"addr":"北京市西城区展览馆路24号","brief_introduction":"外交学院是外交部直属的唯一一所培养外交外事、国际问题研究和涉外经济、法律复合型人才的高等学校。经国务院学位委员会批准有权授予学士、硕士和博士三级学位。外交学院创建于1955年,是由周恩来总理亲自倡议,经党中央批准成立的。周恩来总理向我国外交人员提出的“站稳立场、掌握政策、熟悉业务、严守纪律”的“十六字方针”是我院的校训。1961??1969年陈毅副总理兼任我院院长。现任院长为国际展览局主席、全国政协副秘书长吴建民大使，党委书记为秦亚青教授。我院认真贯彻江泽民同志为我院所作“立足祖国,放眼世界,面","code":"112003800","college_id":581,"college_nature":"公办","edu_directly":false,"email":"zhshb@cfau.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/581.jpg","member_ship":"外交部","name":"外交学院","official_website":null,"old_name":"外交学院","property":"语言类","province":"北京","ranking":"497","ranking_collegetype":"13","recruit_tel":"（010）68354353","recruit_website":"http://www.cfau.edu.cn","tuition_fee":"根据有关文件规定，2016年学费为每学年5000元/生，住宿费为每学年900元/生。如国家调整2016年本科生学费和住宿费标准，学校将按照新规定执行。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "北京市西城区展览馆路24号",
+    "brief_introduction": "外交学院是外交部直属的唯一一所培养外交外事、国际问题研究和涉外经济、法律复合型人才的高等学校。经国务院学位委员会批准有权授予学士、硕士和博士三级学位。外交学院创建于1955年,是由周恩来总理亲自倡议,经党中央批准成立的。周恩来总理向我国外交人员提出的“站稳立场、掌握政策、熟悉业务、严守纪律”的“十六字方针”是我院的校训。1961??1969年陈毅副总理兼任我院院长。现任院长为国际展览局主席、全国政协副秘书长吴建民大使，党委书记为秦亚青教授。我院认真贯彻江泽民同志为我院所作“立足祖国,放眼世界,面",
+    "code": "112003800",
+    "college_id": 581,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "zhshb@cfau.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/581.jpg",
+    "member_ship": "外交部",
+    "name": "外交学院",
+    "official_website": null,
+    "old_name": "外交学院",
+    "property": "语言类",
+    "province": "北京",
+    "ranking": "497",
+    "ranking_collegetype": "13",
+    "recruit_tel": "（010）68354353",
+    "recruit_website": "http://www.cfau.edu.cn",
+    "tuition_fee": "根据有关文件规定，2016年学费为每学年5000元/生，住宿费为每学年900元/生。如国家调整2016年本科生学费和住宿费标准，学校将按照新规定执行。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

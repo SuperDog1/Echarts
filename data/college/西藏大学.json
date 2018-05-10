@@ -1,1 +1,26 @@
-{"data":[{"addr":"西藏自治区拉萨市江苏路36号","brief_introduction":"西藏大学是西藏自治区唯一一所综合性大学，由原西藏大学和原西藏农牧学院于2001年合并组建而成。合并前的两所学校都有着光荣的历史和传统。原西藏大学办学历史可追溯到1951年，西藏刚刚和平解放，进藏人民解放军在现西藏大学校本部办起了藏文干部训练班，后历经西藏军区干部学校、西藏地方干部学校、西藏行政干部学校三个阶段。随着西藏教育事业的发展，为解决小学、中学师资紧缺的问题，1965年，在西藏行政干部学校的基础上，建立了西藏自治区第一所师范学校。1975年，在西藏师范学校的基础上，成立了西藏历史上第一所高","code":"542000100","college_id":364,"college_nature":"公办","edu_directly":false,"email":"wshyan@163.net","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/364.jpg","member_ship":"西藏自治区教育厅","name":"西藏大学","official_website":null,"old_name":"西藏大学","property":"综合类","province":"西藏","ranking":"498","ranking_collegetype":"121","recruit_tel":"0891-6331646(兼传真)","recruit_website":"http://www.utibet.edu.cn","tuition_fee":"第十九条我校按自治区物价局核定的收费标准收取学费和住宿费等学杂费，公布招生计划同时公布学费标准。根据藏教委字【2000】39号文件规定，我校住宿费为800元/学年，学费标准参看《西藏大学2015年普通本专科分省分专业招生计划一览表》。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "西藏自治区拉萨市江苏路36号",
+    "brief_introduction": "西藏大学是西藏自治区唯一一所综合性大学，由原西藏大学和原西藏农牧学院于2001年合并组建而成。合并前的两所学校都有着光荣的历史和传统。原西藏大学办学历史可追溯到1951年，西藏刚刚和平解放，进藏人民解放军在现西藏大学校本部办起了藏文干部训练班，后历经西藏军区干部学校、西藏地方干部学校、西藏行政干部学校三个阶段。随着西藏教育事业的发展，为解决小学、中学师资紧缺的问题，1965年，在西藏行政干部学校的基础上，建立了西藏自治区第一所师范学校。1975年，在西藏师范学校的基础上，成立了西藏历史上第一所高",
+    "code": "542000100",
+    "college_id": 364,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "wshyan@163.net",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/364.jpg",
+    "member_ship": "西藏自治区教育厅",
+    "name": "西藏大学",
+    "official_website": null,
+    "old_name": "西藏大学",
+    "property": "综合类",
+    "province": "西藏",
+    "ranking": "498",
+    "ranking_collegetype": "121",
+    "recruit_tel": "0891-6331646(兼传真)",
+    "recruit_website": "http://www.utibet.edu.cn",
+    "tuition_fee": "第十九条我校按自治区物价局核定的收费标准收取学费和住宿费等学杂费，公布招生计划同时公布学费标准。根据藏教委字【2000】39号文件规定，我校住宿费为800元/学年，学费标准参看《西藏大学2015年普通本专科分省分专业招生计划一览表》。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

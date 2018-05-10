@@ -1,1 +1,26 @@
-{"data":[{"addr":"辽宁省大连市凌工路2号","brief_introduction":"大连理工大学1949年4月建校，时为大连大学工学院；1950年7月大连大学建制撤销，大连大学工学院独立为大连工学院；1960年被确定为教育部直属全国重点大学；1986年设研究生院；1988年更名为大连理工大学；1996年~2000年实施\"九五\"\"211工程\"建设，教育部、辽宁省、大连市共建大连理工大学；2001年~2003年，教育部、辽宁省、大连市重点共建大连理工大学，实施\"985工程\"一期建设；2003年~2005年实施\"十五\"\"211工程\"建设；2003年12月被中央确定为中管干部学校；20","code":"212000100","college_id":138,"college_nature":"公办","edu_directly":true,"email":"xsczb@dlut.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/138.jpg","member_ship":"教育部","name":"大连理工大学","official_website":null,"old_name":"大连理工大学 曾用名：大连理工大学盘锦校区","property":"理工类","province":"辽宁","ranking":"25","ranking_collegetype":"8","recruit_tel":"0411-84708375","recruit_website":"http://www.dlut.edu.cn/","tuition_fee":"学校遵循属地原则，以辽宁省物价局核定的标准收取学费和住宿费，相关具体收费标准通过各省级招生主管部门公布。","type":"普通本科"},{"addr":"--","brief_introduction":"基于服务国家发展战略、满足人民群众分享优质高等教育资源新期待、实现astyle=\"border-bottom-style:none;padding-bottom:0px;line-height:28px;","code":"212010100","college_id":3122,"college_nature":"[]","edu_directly":false,"email":"--","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/3122.jpg","member_ship":"[]","name":"大连理工大学盘锦校区","official_website":null,"old_name":"大连理工大学盘锦校区","property":"[]","province":"辽宁","ranking":"2024","ranking_collegetype":"0","recruit_tel":"--","recruit_website":"--","tuition_fee":"[]","type":"其它"},{"addr":"辽宁省大连市经济技术开发区铁山西路31号","brief_introduction":"大连理工大学城市学院经国家教育部批准成立于2003年3月，是东北首家按新机制、新模式设立的独立学院，是大连理工大学和中国城市建设控股集团有限公司（国企）下属的全资子公司大连松源企业集团合作创办的新型普通本科院校。学院地处中国十大最具经济活力的滨海城市——大连，校园占地761亩，建筑面积25万平方米。学院各类办学设施齐全、先进，为学生创造了一流的学习和生活条件。学院根植于大连理工大学，由大连理工大学全面负责学院的教学和管理。学院充分发挥大连理工大学的综合办学优势，根据社会发展的实际需求设置专业，目","code":"212000101","college_id":1305,"college_nature":"民办","edu_directly":false,"email":"city@dlut.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/1305.jpg","member_ship":"辽宁省教育厅","name":"大连理工大学城市学院","official_website":null,"old_name":"大连理工大学城市学院","property":"理工类","province":"辽宁","ranking":"441","ranking_collegetype":"170","recruit_tel":"0411-82177088,0411-82171480","recruit_website":"http://www.dl-city.com/","tuition_fee":"1、学院执行辽宁省物价局、教育厅核定的学费和住宿费标准，并实行一年一交的原则。学院各专业的学费标准是：数字媒体艺术专业16000元/生•年；建筑学、土木工程、环境设计专业14000元/生•年；计算机科学与技术、软件工程、网络工程、电子信息工程、自动化、通信工程、电气工程及其自动化、工程造价、测绘工程、风景园林专业13000元/生•年；广播电视学、英语、日语、信息管理与信息系统、工程管理专业12000元/生•年；工商管理、公共事业管理专业11000元/生•年；物流管理、市场营销专业10000元/生","type":"独立学院"}],"total":3}
+{
+  "data": [{
+    "addr": "辽宁省大连市凌工路2号",
+    "brief_introduction": "大连理工大学1949年4月建校，时为大连大学工学院；1950年7月大连大学建制撤销，大连大学工学院独立为大连工学院；1960年被确定为教育部直属全国重点大学；1986年设研究生院；1988年更名为大连理工大学；1996年~2000年实施\"九五\"\"211工程\"建设，教育部、辽宁省、大连市共建大连理工大学；2001年~2003年，教育部、辽宁省、大连市重点共建大连理工大学，实施\"985工程\"一期建设；2003年~2005年实施\"十五\"\"211工程\"建设；2003年12月被中央确定为中管干部学校；20",
+    "code": "212000100",
+    "college_id": 138,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "xsczb@dlut.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/138.jpg",
+    "member_ship": "教育部",
+    "name": "大连理工大学",
+    "official_website": null,
+    "old_name": "大连理工大学 曾用名：大连理工大学盘锦校区",
+    "property": "理工类",
+    "province": "辽宁",
+    "ranking": "25",
+    "ranking_collegetype": "8",
+    "recruit_tel": "0411-84708375",
+    "recruit_website": "http://www.dlut.edu.cn/",
+    "tuition_fee": "学校遵循属地原则，以辽宁省物价局核定的标准收取学费和住宿费，相关具体收费标准通过各省级招生主管部门公布。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

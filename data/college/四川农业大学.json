@@ -1,1 +1,26 @@
-{"data":[{"addr":"四川省雅安市雨城区新康路46号","brief_introduction":"四川农业大学是一所以生物科技为特色，农业科技为优势，农、理、工、经、管、医、文、教、法、艺多学科协调发展的国家“211工程”重点建设大学，也是教育部本科教学工作水平评估优秀高校。学校源自1906年创办的四川通省农业学堂，1927年和1935年两次并入四川大学，1956年由四川大学农学院整体迁往原西康省（1955年撤销）省会雅安成立四川农学院，1978年恢复招收研究生，1985年更名为四川农业大学，1998年批准成为国家“211工程”重点建设大学。学校现有3个校区，即雅安校本部、成都校区和都江堰校","code":"512000900","college_id":100,"college_nature":"公办","edu_directly":false,"email":"scndzs@163.com","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/100.jpg","member_ship":"四川省教育厅","name":"四川农业大学","official_website":null,"old_name":"四川农业大学 曾用名：四川农学院","property":"农林类","province":"四川","ranking":"185","ranking_collegetype":"6","recruit_tel":"028-86290999；86291999；0835-2882232","recruit_website":"http://www.sicau.edu.cn","tuition_fee":"■□第十二条：我校各专业的招生计划和学费标准在各省（市、自治区）统一编印的《招生计划汇编》公布。住宿费收费标准为：每生每年800-1200元。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "四川省雅安市雨城区新康路46号",
+    "brief_introduction": "四川农业大学是一所以生物科技为特色，农业科技为优势，农、理、工、经、管、医、文、教、法、艺多学科协调发展的国家“211工程”重点建设大学，也是教育部本科教学工作水平评估优秀高校。学校源自1906年创办的四川通省农业学堂，1927年和1935年两次并入四川大学，1956年由四川大学农学院整体迁往原西康省（1955年撤销）省会雅安成立四川农学院，1978年恢复招收研究生，1985年更名为四川农业大学，1998年批准成为国家“211工程”重点建设大学。学校现有3个校区，即雅安校本部、成都校区和都江堰校",
+    "code": "512000900",
+    "college_id": 100,
+    "college_nature": "公办",
+    "edu_directly": false,
+    "email": "scndzs@163.com",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/100.jpg",
+    "member_ship": "四川省教育厅",
+    "name": "四川农业大学",
+    "official_website": null,
+    "old_name": "四川农业大学 曾用名：四川农学院",
+    "property": "农林类",
+    "province": "四川",
+    "ranking": "185",
+    "ranking_collegetype": "6",
+    "recruit_tel": "028-86290999；86291999；0835-2882232",
+    "recruit_website": "http://www.sicau.edu.cn",
+    "tuition_fee": "■□第十二条：我校各专业的招生计划和学费标准在各省（市、自治区）统一编印的《招生计划汇编》公布。住宿费收费标准为：每生每年800-1200元。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}

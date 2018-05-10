@@ -1,1 +1,26 @@
-{"data":[{"addr":"黑龙江省哈尔滨市香坊区和兴路26号","brief_introduction":"东北林业大学创建于1952年，是在浙江大学农学院森林系和东北农学院森林系基础上建立的，是教育部直属、教育部与国家林业局共建、教育部与黑龙江省人民政府共建的国家“211工程”和“优势学科创新平台”项目重点建设高校。学校地处我国最大国有林区的中心——哈尔滨市，校园占地136公顷，并拥有帽儿山实验林场(帽儿山国家森林公园)和凉水实验林场(凉水国家级自然保护区)等教学、科研、实习基地，总面积达3.3万公顷。学校是一所以林科为优势，以林业工程为特色，农、理、工、经、管、文、法、医、艺相结合的多科性大学。现","code":"232000100","college_id":419,"college_nature":"公办","edu_directly":true,"email":"zsb@nefu.edu.cn","level":"本科","logo":"http://ormuxuvyx.bkt.clouddn.com/college/logo/419.jpg","member_ship":"教育部","name":"东北林业大学","official_website":null,"old_name":"东北林业大学","property":"农林类","province":"黑龙江","ranking":"276","ranking_collegetype":"14","recruit_tel":"0451-82190346","recruit_website":"http://www.nefu.edu.cn/","tuition_fee":"具体招生计划、学费标准详见各省（自治区、直辖市）招生部门公布的招生公告。","type":"普通本科"}],"total":1}
+{
+  "data": [{
+    "addr": "黑龙江省哈尔滨市香坊区和兴路26号",
+    "brief_introduction": "东北林业大学创建于1952年，是在浙江大学农学院森林系和东北农学院森林系基础上建立的，是教育部直属、教育部与国家林业局共建、教育部与黑龙江省人民政府共建的国家“211工程”和“优势学科创新平台”项目重点建设高校。学校地处我国最大国有林区的中心——哈尔滨市，校园占地136公顷，并拥有帽儿山实验林场(帽儿山国家森林公园)和凉水实验林场(凉水国家级自然保护区)等教学、科研、实习基地，总面积达3.3万公顷。学校是一所以林科为优势，以林业工程为特色，农、理、工、经、管、文、法、医、艺相结合的多科性大学。现",
+    "code": "232000100",
+    "college_id": 419,
+    "college_nature": "公办",
+    "edu_directly": true,
+    "email": "zsb@nefu.edu.cn",
+    "level": "本科",
+    "logo": "http://ormuxuvyx.bkt.clouddn.com/college/logo/419.jpg",
+    "member_ship": "教育部",
+    "name": "东北林业大学",
+    "official_website": null,
+    "old_name": "东北林业大学",
+    "property": "农林类",
+    "province": "黑龙江",
+    "ranking": "276",
+    "ranking_collegetype": "14",
+    "recruit_tel": "0451-82190346",
+    "recruit_website": "http://www.nefu.edu.cn/",
+    "tuition_fee": "具体招生计划、学费标准详见各省（自治区、直辖市）招生部门公布的招生公告。",
+    "type": "普通本科"
+  }],
+  "total": 1
+}
