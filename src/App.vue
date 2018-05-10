@@ -1,10 +1,13 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header><h2>双一流大学</h2></el-header>
+      <el-header><h2 @click="backToMap">双一流大学</h2></el-header>
       <el-container id="main">
-        <el-aside width="260px"><Aside/></el-aside>
-        <el-main><College/></el-main>
+        <el-aside width="260px"><Aside @toCollege="toCollege"/></el-aside>
+        <el-main>
+          <College :province="province" v-if="!show"/>
+          <Main @toCollege="toCollege" v-if="show"/>
+        </el-main>
       </el-container>
     </el-container>
   </div>
@@ -21,6 +24,21 @@ export default {
     Aside,
     Main,
     College
+  },
+  data () {
+    return {
+      province: '',
+      show: true
+    }
+  },
+  methods: {
+    toCollege(province) {
+      this.province = province
+      this.show = false
+    },
+    backToMap() {
+      this.show = true
+    }
   }
 }
 </script>

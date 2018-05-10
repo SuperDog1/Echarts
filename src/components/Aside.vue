@@ -6,6 +6,7 @@
         <div @click="select(item)">{{ item }}</div>
       </li>
     </ul>
+
   </div>
 </template>
 <script>
@@ -21,6 +22,8 @@ export default {
   methods: {
     select: function (el) {
       this.selected = el
+      this.$emit('toCollege', el)
+      console.log(el)
     }
   }
 }

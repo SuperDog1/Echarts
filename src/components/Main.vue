@@ -70,7 +70,7 @@ export default {
             showDelay: 0,
             transitionDuration: 0.2,
             formatter: function (params) {
-              return '清华大学'
+              return ''
             }
           },
           data: [
@@ -112,9 +112,10 @@ export default {
         }
       ]
     }
-    // 处理点击事件并且跳转到相应的百度搜索页面
+    // 处理点击事件并且跳转到相应的页面
+    const that = this
     myChart.on('click', function (params) {
-      window.open('https://www.baidu.com/s?wd=' + encodeURIComponent(params.name))
+       that.$emit('toCollege', params.name)
     })
     myChart.setOption(option)
     myChart.on('mouseover', function (params) {
