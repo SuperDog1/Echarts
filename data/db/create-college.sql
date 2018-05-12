@@ -11,6 +11,6 @@ CREATE TABLE IF NOT EXISTS college(
        province VARCHAR(32),
        logo VARCHAR(128),
        tuition_fee VARCHAR(256),
-       property: VARCHAR(16),
-       member_ship: VARCHAR(16)
+       property VARCHAR(16),
+       member_ship VARCHAR(16)
 ) DEFAULT CHARACTER SET utf8;
