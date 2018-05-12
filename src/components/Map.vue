@@ -115,7 +115,7 @@ export default {
     }
     // 处理点击事件并且跳转到相应的页面
     myChart.on('click', (params) => {
-       this.$emit('toCollege', params.name)
+       this.$emit('changePage', 'college-list', params.name)
     })
     myChart.setOption(option)
     myChart.on('mouseover', function (params) {
