@@ -73,8 +73,12 @@ export default {
     cursor: pointer;
     font-size: 14px;
   }
+  .label:hover {
+    color: #fff;
+  }
   .active-tab {
     color: #fff;
+    font-size: 16px;
   }
   .el-tree {
     margin-top: 12px;
@@ -88,8 +92,8 @@ export default {
   .el-tree-node__content:hover {
     background-color: rgba(89, 89, 89, 0.1);
   }
-  .el-tree-node:foucs > .el-tree-node__content {
-    background: rgba(0, 0, 0, 0);
+  .el-tree-node:focus > .el-tree-node__content {
+    background: rgba(89, 89, 89, 0.2);
     color: #fff;
   }
 </style>

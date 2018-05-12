@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <header class="header"><h1>双一流大学</h1></header>
-    <section class="main">
+    <header class="header">
+      <h1>双一流大学</h1>
+      <input type="text" name="search" id="search" placeholder="请输入需查询的学校...">
+    </header>
+    <section id="main">
       <Aside />
+      <Main />
     </section>
   </div>
 </template>
@@ -53,12 +57,21 @@ export default {
     z-index: 100;
     border-bottom: 1px solid rgba(89,89,89,0.48);
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
   }
   h1 {
     margin: 0;
     line-height: 80px;
   }
-  .main {
+  #search {
+    background: rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    font-size: 22px;
+    color: #fff;
+    width: 400px;
+  }
+  #main {
     display: flex;
   }
 </style>
