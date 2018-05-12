@@ -15,5 +15,6 @@ export default {
 <style scoped>
   .main {
     padding: 20px;
+    border-left: 1px solid rgba(89, 89, 89, 0.48);
   }
 </style>

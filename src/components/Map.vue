@@ -113,9 +113,8 @@ export default {
       ]
     }
     // 处理点击事件并且跳转到相应的页面
-    const that = this
-    myChart.on('click', function (params) {
-       that.$emit('toCollege', params.name)
+    myChart.on('click', (params) => {
+       this.$emit('toCollege', params.name)
     })
     myChart.setOption(option)
     myChart.on('mouseover', function (params) {

@@ -55,9 +55,9 @@ export default {
 <style scoped>
   #aside {
     overflow: hidden;
+    min-width: 240px;
     width: 240px;
-    height: 500px;
-    border-right: 1px solid rgba(89, 89, 89, 0.48);
+    height: 100%;
   }
   .tabs {
     height: 54px;
