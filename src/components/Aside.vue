@@ -1,12 +1,19 @@
 <template>
   <div id="aside">
-    <div class="title">省份</div>
-    <ul id="list">
-      <li v-for="item in province" :key="item">
-        <div @click="select(item)">{{ item }}</div>
-      </li>
-    </ul>
-
+    <div class="tabs">
+      <a
+        class="label"
+        v-for="label in labels"
+        :key="label"
+        :class="{'active-tab': label === activeTab}"
+        @click="changeTab(label)">
+        {{label}}
+      </a>
+    </div>
+    <el-tree
+      :data="tabData"
+      :props="defaultProps"
+      @node-click="handleNodeClick" />
   </div>
 </template>
 <script>
@@ -15,15 +22,32 @@ export default {
   name: 'Aside',
   data () {
     return {
-      province: province.data,
-      selected: ''
+      activeTab: '区域省份',
+      labels: ['区域省份', '高校类型', '学科专业'],
+      tabData: [{
+        label: '华南',
+        children: [
+          { label: '广西', children: [{ label: '广西大学' }] },
+          { label: '广东' },
+          { label: '海南' },
+        ],
+      }, {
+        label: '华东',
+      }, {
+        label: '华中',
+      }],
+      defaultProps: {
+        children: 'children',
+        label: 'label'
+      },
     }
   },
   methods: {
-    select: function (el) {
-      this.selected = el
-      this.$emit('toCollege', el)
-      console.log(el)
+    changeTab(label) {
+      this.activeTab = label
+    },
+    handleNodeClick(data) {
+      console.log(data)
     }
   }
 }
@@ -31,34 +55,42 @@ export default {
 <style scoped>
   #aside {
     overflow: hidden;
+    width: 240px;
+    height: 500px;
+    border-right: 1px solid rgba(89, 89, 89, 0.48);
   }
-  .title {
-    border: 1px solid #eee;
-    border-right: none;
-    padding: 16px 46px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #444;
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
-    position: fixed;
-    top: 60px;
-    width: 150px;
-    background: white;
+  .tabs {
+    height: 54px;
+    border-bottom: 1px solid rgba(89, 89, 89, 0.48);
+    display: flex;
+    align-items: center;
   }
-  ul {
-    margin-top: 62px;
-    margin-left: -40px;
+  .label {
+    display: block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #adb7ad;
+    cursor: pointer;
+    font-size: 14px;
   }
-  li {
-    list-style-type: none;
+  .active-tab {
+    color: #fff;
   }
-  li > div {
-    color: #666;
-    padding: 8px 48px;
-    border-radius: 3px;
-  }
-  li > div:hover {
-    background: #eee;
-    color: #409eff;
+  .el-tree {
+    margin-top: 12px;
+    background: rgba(0, 0, 0, 0);
   }
 </style>
+<style>
+  .el-tree-node__content {
+    height: 42px;
+  }
+  .el-tree-node__content:hover {
+    background-color: rgba(89, 89, 89, 0.1);
+  }
+  .el-tree-node:foucs > .el-tree-node__content {
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+  }
+</style>
+
