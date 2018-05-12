@@ -10,13 +10,14 @@ export default {
   name: 'Map',
   mounted () {
     // eslint-disable-next-line
-    const myChart = echarts.init(document.getElementById('china-map'))
+    const myChart = echarts.init(document.getElementById('china-map'), '', {width: 960, height: 800})
     const option = {
       title: {
         text: '双一流大学地域分布',
         left: 'center',
         textStyle: {
-          fontSize: 20
+          fontSize: 20,
+          color: '#fff',
         }
       },
       tooltip: {
@@ -126,8 +127,8 @@ export default {
 </script>
 <style scoped>
 #china-map {
-  width: 1000px;
-  height: 1000px;
+  width: 960px;
+  height: 800px;
   margin: auto;
   color: rgb(212, 255, 19);
 }

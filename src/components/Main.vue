@@ -1,13 +1,16 @@
 <template>
   <div class="main">
+    <Map />
     <College />
   </div>
 </template>
 <script>
+import Map from './Map.vue'
 import College from './College.vue'
 export default {
   name: 'Main',
   components: {
+    Map,
     College,
   }
 }
