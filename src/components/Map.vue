@@ -5,7 +5,7 @@
 </template>
 
 <script>
-
+import province_color from '../common/province-color.json'
 export default {
   name: 'Map',
   mounted () {
@@ -74,42 +74,7 @@ export default {
               return ''
             }
           },
-          data: [
-            {name: '安徽', value: 1},
-            {name: '澳门', value: 5},
-            {name: '北京', value: 2},
-            {name: '重庆', value: 1},
-            {name: '福建', value: 5},
-            {name: '甘肃', value: 0},
-            {name: '贵州', value: 5},
-            {name: '广东', value: 1},
-            {name: '广西', value: 2},
-            {name: '河北', value: 1},
-            {name: '河南', value: 2},
-            {name: '黑龙江', value: 3},
-            {name: '湖北', value: 0},
-            {name: '湖南', value: 3},
-            {name: '海南', value: 4},
-            {name: '江苏', value: 2},
-            {name: '江西', value: 2},
-            {name: '吉林', value: 1},
-            {name: '辽宁', value: 4},
-            {name: '内蒙古', value: 2},
-            {name: '宁夏', value: 5},
-            {name: '青海', value: 2},
-            {name: '上海', value: 3},
-            {name: '山东', value: 4},
-            {name: '山西', value: 5},
-            {name: '陕西', value: 3},
-            {name: '四川', value: 2},
-            {name: '天津', value: 4},
-            {name: '新疆', value: 3},
-            {name: '西藏', value: 5},
-            {name: '香港', value: 5},
-            {name: '云南', value: 3},
-            {name: '台湾', value: 5},
-            {name: '浙江', value: 5}
-          ]
+          data: province_color,
         }
       ]
     }
@@ -119,7 +84,7 @@ export default {
     })
     myChart.setOption(option)
     myChart.on('mouseover', function (params) {
-      console.log(params)
+      //console.log(params)
     })
   }
 }
