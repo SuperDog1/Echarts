@@ -11,20 +11,21 @@
       </a>
     </div>
     <el-tree
+      show-checkbox
       :data="tabData"
       :props="defaultProps"
       @node-click="handleNodeClick" />
   </div>
 </template>
 <script>
-
+import area from '../common/area.json'
 export default {
   name: 'Aside',
   data () {
     return {
       activeTab: '区域省份',
       labels: ['区域省份', '高校类型', '学科专业'],
-      tabData: ,
+      tabData: area,
       defaultProps: {
         children: 'children',
         label: 'label'
