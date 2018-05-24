@@ -24,8 +24,8 @@
     {"label": "江西"}
   ]
 },  {
- " label": "华北",
- " children": [
+ "label": "华北",
+ "children": [
   {"label": "北京"},
   {"label": "天津"},
   {"label": "河北"},
