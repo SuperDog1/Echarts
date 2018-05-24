@@ -29,8 +29,8 @@ export default {
     return {
       list: [
         {name: '合肥工业大学', logo: 'http://ormuxuvyx.bkt.clouddn.com/college/logo/63.jpg', addr: '安徽省合肥市包河区屯溪路193号'},
-        {name: ''},
-        {name: ''},
+        {name: '中国科学技术大学',logo:'http://ormuxuvyx.bkt.clouddn.com/college/logo/66.jpg',addr:'安徽省合肥市金寨路96号'},
+        {name: '安徽大学',logo:'http://ormuxuvyx.bkt.clouddn.com/college/logo/67.jpg',addr:'安徽省合肥市九龙路111号'},
       ],
     }
   },
