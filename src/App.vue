@@ -13,30 +13,13 @@
 <script>
 import Aside from './components/Aside'
 import Main from './components/Main'
-import College from './components/College'
 
 export default {
   name: 'App',
   components: {
     Aside,
     Main,
-    College
   },
-  data () {
-    return {
-      province: '',
-      show: true
-    }
-  },
-  methods: {
-    toCollege(province) {
-      this.province = province
-      this.show = false
-    },
-    backToMap() {
-      this.show = true
-    }
-  }
 }
 </script>
 <style>
