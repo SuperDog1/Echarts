@@ -10,7 +10,7 @@ export default {
   name: 'Map',
   mounted () {
     // eslint-disable-next-line
-    const myChart = echarts.init(document.getElementById('china-map'), '', {width: 960, height: 800})
+    const myChart = echarts.init(document.getElementById('china-map'), '', {width: 960, height: 760})
     const option = {
       title: {
         text: '双一流大学地域分布',
@@ -128,7 +128,7 @@ export default {
 <style scoped>
 #china-map {
   width: 960px;
-  height: 800px;
+  height: 760px;
   margin: auto;
   color: rgb(212, 255, 19);
 }

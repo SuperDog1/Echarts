@@ -17,49 +17,14 @@
   </div>
 </template>
 <script>
-import province from './province.json'
+
 export default {
   name: 'Aside',
   data () {
     return {
       activeTab: '区域省份',
       labels: ['区域省份', '高校类型', '学科专业'],
-      tabData: [{
-        label: '华东',
-        children: [
-          { label: '安徽', children: [] },
-          { label: '福建', children: [] },
-          { label: '江苏', children: [] },
-          { label: '山东', children: [] },
-          { label: '上海', children: [] },
-          { label: '浙江', children: [] },
-        ],
-      }, {
-        label: '华南',
-        children: [
-          { label: '广东' },
-          { label: '广西', children: [{ label: '广西大学' }] },
-          { label: '海南' },
-        ],
-      }, {
-        label: '华中',
-        children: [{}],
-      },  {
-        label: '华北',
-        children: [{}],
-      },  {
-        label: '西北',
-        children: [{}],
-      },  {
-        label: '西南',
-        children: [{}],
-      },  {
-        label: '东北',
-        children: [{}],
-      },  {
-        label: '台港澳',
-        children: [{}],
-      }],
+      tabData: ,
       defaultProps: {
         children: 'children',
         label: 'label'

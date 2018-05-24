@@ -1,0 +1,36 @@
+[{
+  "label": "华东",
+  children: [
+    { label: '安徽' },
+    { label: '福建' },
+    { label: '江苏' },
+    { label: '山东' },
+    { label: '上海' },
+    { label: '浙江' },
+  ],
+}, {
+  label: '华南',
+  children: [
+    { label: '广东' },
+    { label: '广西' },
+    { label: '海南' },
+  ],
+}, {
+  label: '华中',
+  children: [{}],
+},  {
+  label: '华北',
+  children: [{}],
+},  {
+  label: '西北',
+  children: [{}],
+},  {
+  label: '西南',
+  children: [{}],
+},  {
+  label: '东北',
+  children: [{}],
+},  {
+  label: '台港澳',
+  children: [{}],
+}]
