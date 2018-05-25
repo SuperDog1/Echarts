@@ -18,7 +18,7 @@
 export default {
   name: 'Compare',
   mounted() {
-    const rank_chart = echarts.init(document.getElementById('rank-chart'))
+    const rank_chart = this.$echarts.init(document.getElementById('rank-chart'))
     const rank_option = {
       tooltip : {
         trigger: 'axis'
@@ -50,7 +50,7 @@ export default {
     }
     rank_chart.setOption(rank_option)
 
-    const number_chart = echarts.init(document.getElementById('number-chart'))
+    const number_chart = this.$echarts.init(document.getElementById('number-chart'))
     const number_option = {
       xAxis: {
         type: 'category',
@@ -68,7 +68,7 @@ export default {
     }
     number_chart.setOption(number_option)
 
-    const proportion_chart = echarts.init(document.getElementById('proportion-chart'))
+    const proportion_chart = this.$echarts.init(document.getElementById('proportion-chart'))
     const proportion_option = {
       tooltip : {
         trigger: 'axis'

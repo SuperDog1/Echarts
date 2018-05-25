@@ -1,4 +1,12 @@
 [
+  {
+    "name": "南海诸岛",
+    "value": 0,
+    "itemStyle": {
+      "normal": { "opacity": 0 }
+    },
+    "label": { "show": false }
+  },
   {"name": "安徽", "value": 1},
   {"name": "澳门", "value": 5},
   {"name": "北京", "value": 2},

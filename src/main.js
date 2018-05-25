@@ -5,14 +5,20 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App'
 import axios from 'axios'
+import echarts from 'echarts/index.js'
 import { post, fetch, patch, put } from './api/axios'
 
 Vue.config.productionTip = false
+
+Vue.prototype.$echarts = echarts
+
 Vue.prototype.$post=post
 Vue.prototype.$fetch=fetch
 Vue.use(ElementUI)
 
-/* eslint-disable no-new */
+/* bus */
+Vue.prototype.$bus = new Vue()
+
 new Vue({
   el: '#app',
   components: { App },

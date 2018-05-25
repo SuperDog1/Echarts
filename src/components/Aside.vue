@@ -53,6 +53,15 @@ export default {
       selected: [],
     }
   },
+  watch: {
+    selected: {
+      handler: function(newValue, oldValue) {
+        this.$bus.$emit('selected-change', [...newValue])
+      },
+      immediate: true
+    }
+  },
+
   methods: {
     changeTab(label) {
       const TAB_DATA = {
@@ -75,7 +84,6 @@ export default {
       if (checked) {
         this.selected.push(label)
       } else {
-
         this.selected = this.selected.filter((o) => o !== label)
       }
     },

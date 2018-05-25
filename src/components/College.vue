@@ -48,7 +48,7 @@
 export default {
   name: 'College',
   mounted() {
-    const age_chart = echarts.init(document.getElementById('age-chart'))
+    const age_chart = this.$echarts.init(document.getElementById('age-chart'))
     const age_option = {
       title: {
         text: '年龄情况',
@@ -90,7 +90,7 @@ export default {
     }
     age_chart.setOption(age_option)
 
-    const proportion_chart = echarts.init(document.getElementById('proportion-chart'))
+    const proportion_chart = this.$echarts.init(document.getElementById('proportion-chart'))
     const proportion_option = {
       title: {
         text: '男女比',
@@ -129,7 +129,7 @@ export default {
     }
     proportion_chart.setOption(proportion_option)
 
-    const number_chart = echarts.init(document.getElementById('number-chart'))
+    const number_chart = this.$echarts.init(document.getElementById('number-chart'))
     const number_option = {
       xAxis: {
         type: 'category',
@@ -149,7 +149,7 @@ export default {
     }
     number_chart.setOption(number_option)
 
-    const histogram_chart = echarts.init(document.getElementById('histogram-chart'))
+    const histogram_chart = this.$echarts.init(document.getElementById('histogram-chart'))
     const histogram_option = {
       xAxis: {
         type: 'category',
