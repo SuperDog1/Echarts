@@ -1,6 +1,12 @@
 <template>
-  <div id="map">
-    <div id="china-map"></div>
+  <div class="container">
+    <h3>
+      <span @click="handleToggle">
+        <span>双一流大学地域分布图</span>
+        <i :class="'el-icon-arrow-down animated ' + (showMap ? 'rotateDown' : 'rotateUp')"></i>
+      </span>
+    </h3>
+    <div id="china-map" :class="(showMap ? 'slideDown' : 'slideUp') + ' animated'"></div>
   </div>
 </template>
 
@@ -8,18 +14,20 @@
 import province_color from '../common/province-color.json'
 export default {
   name: 'Map',
+  data() {
+    return {
+      showMap: true
+    }
+  },
+  methods: {
+    handleToggle() {
+      this.showMap = !this.showMap
+    }
+  },
   mounted () {
     // eslint-disable-next-line
     const myChart = echarts.init(document.getElementById('china-map'), '', {width: 960, height: 760})
     const option = {
-      title: {
-        text: '双一流大学地域分布',
-        left: 'center',
-        textStyle: {
-          fontSize: 20,
-          color: '#fff',
-        }
-      },
       tooltip: {
         formatter: '{b}',
         backgroundColor: '#ff7f50',
@@ -91,10 +99,55 @@ export default {
 
 </script>
 <style scoped>
-#china-map {
-  width: 960px;
-  height: 760px;
-  margin: auto;
-  color: rgb(212, 255, 19);
-}
+  .container {
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(89, 89, 89, 0.48);
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden;
+  }
+  h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  #china-map {
+    overflow: hidden;
+    width: 900px;
+    margin: auto;
+    color: rgb(212, 255, 19);
+  }
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  @keyframes rotateDown {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(180deg); }
+  }
+  .rotateDown {
+    animation-name: rotateDown;
+  }
+  @keyframes rotateUp {
+    from { transform: rotate(180deg); }
+    to { transform: rotate(0deg); }
+  }
+  .rotateUp {
+    animation-name: rotateUp;
+  }
+  @keyframes slideDown {
+    from { height: 0; }
+    to { height: 700px; }
+  }
+  .slideDown {
+    animation-name: slideDown;
+  }
+  @keyframes slideUp {
+    from { height: 700px; }
+    to { height: 0; }
+  }
+  .slideUp {
+    animation-name: slideUp;
+  }
 </style>
