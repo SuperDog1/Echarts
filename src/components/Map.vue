@@ -12,72 +12,14 @@
 
 <script>
 import province_color from '../common/province-color.json'
-import china_map from '../common/china-map.json'
-const option = {
-  tooltip: {
-    formatter: '{b}',
-    backgroundColor: '#ff7f50',
-    textStyle: {
-      color: '#fff'
-    }
-  },
-  visualMap: {
-    min: 0,
-    max: 5,
-    inRange: {
-      color: ['#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090']
-    },
-    show: false
-  },
-  series: [
-    {
-      type: 'map',
-      mapType: 'china',
-      label: {
-        normal: {
-          show: true,
-          textStyle: {
-            fontFamily: 'Microsoft YaHei',
-            color: '#ff7f50'
-          }
-        },
-        emphasis: {
-          show: true,
-          textStyle: {
-            color: '#800080'
-          }
-        }
-      },
-      itemStyle: {
-        normal: {
-          borderWidth: 0.5,
-          borderColor: '#333333',
-          areaColor: '#77afd2'
-        },
-        emphasis: {
-          borderWidth: 0.5,
-          borderColor: '#666666',
-          areaColor: 'rgb(212, 255, 19)'
-        }
-      },
-      tooltip: {
-        trigger: 'item',
-        showDelay: 0,
-        transitionDuration: 0.2,
-        formatter: function (params) {
-          return ''
-        }
-      },
-      data: province_color,
-    }
-  ]
-}
+
 
 export default {
   name: 'Map',
   data() {
     return {
       showMap: true,
+      area: 'china',
       map_chart: null,
     }
   },
@@ -85,32 +27,92 @@ export default {
     handleToggle() {
       this.showMap = !this.showMap
     },
-    changeMap(map_data) {
-      console.log("this is very ming brother")
-      this.$echarts.registerMap('china', {
-        "type": "FeatureCollection",
-        "features": map_data,
-        "UTF8Encoding": true
-      })
+    changeMap() {
+      const option = {
+        tooltip: {
+          formatter: '{b}',
+          backgroundColor: '#ff7f50',
+          textStyle: {
+            color: '#fff'
+          }
+        },
+        visualMap: {
+          min: 0,
+          max: 5,
+          inRange: {
+            color: ['#4575b4', '#74add1', '#abd9e9', '#e0f3f8', '#ffffbf', '#fee090']
+          },
+          show: false
+        },
+        series: [
+          {
+            type: 'map',
+            mapType: this.area,
+            label: {
+              normal: {
+                show: true,
+                textStyle: {
+                  fontFamily: 'Microsoft YaHei',
+                  color: '#ff7f50'
+                }
+              },
+              emphasis: {
+                show: true,
+                textStyle: {
+                  color: '#800080'
+                }
+              }
+            },
+            itemStyle: {
+              normal: {
+                borderWidth: 0.5,
+                borderColor: '#333333',
+                areaColor: '#77afd2'
+              },
+              emphasis: {
+                borderWidth: 0.5,
+                borderColor: '#666666',
+                areaColor: 'rgb(212, 255, 19)'
+              }
+            },
+            tooltip: {
+              trigger: 'item',
+              showDelay: 0,
+              transitionDuration: 0.2,
+              formatter: function (params) {
+                return ''
+              }
+            },
+            data: province_color,
+          }
+        ]
+      }
+      this.map_chart.setOption(option)
     }
   },
-
   created() {
     this.$bus.$on("selected-change", (array) => {
-      this.changeMap(china_map.filter((o) => array.includes(o.properties.name)))
-    });
+      const areas = [ '华东', '华南', '华中', '华北', '西北', '西南', '东北', '台港澳' ].filter(
+        (a) => array.includes(a)
+      )
+      if (areas.length === 1) {
+        this.area = areas[0]
+      } else {
+        this.area = 'china'
+      }
+      this.changeMap()
+    })
   },
-
   mounted () {
-    this.changeMap(china_map)
-    this.map_chart = this.$echarts.init(document.getElementById('china-map'), '', {width: 960, height: 760})
-    this.map_chart.on('click', (params) => {
+    const map_chart = this.$echarts.init(document.getElementById('china-map'), '', {width: 960, height: 760})
+    map_chart.on('click', (params) => {
       this.$emit('changePage', 'college-list', params.name)
     })
-    this.map_chart.setOption(option)
-    this.map_chart.on('mouseover', function (params) {
+    map_chart.on('mouseover', function (params) {
       //console.log(params)
     })
+    this.map_chart = map_chart
+    this.changeMap()
   }
 }
 

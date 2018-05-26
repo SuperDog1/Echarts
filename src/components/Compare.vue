@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" v-show="selected.length !== 0">
     <div class="chart-card">
       <h3>学校排名</h3>
       <div id="rank-chart"></div>
@@ -17,6 +17,16 @@
 <script>
 export default {
   name: 'Compare',
+  data() {
+    return {
+      selected: [],
+    }
+  },
+  created() {
+    this.$bus.$on("selected-change", (array) => {
+      this.selected = array
+    })
+  },
   mounted() {
     const rank_chart = this.$echarts.init(document.getElementById('rank-chart'))
     const rank_option = {
