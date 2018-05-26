@@ -14,7 +14,7 @@
       <li>{{hash.tel}} : {{college.tel}}</li>
       <li>{{hash.province}} : {{college.province}}</li>
       <li>{{hash.fee}} : <span class="fee">{{college.fee}}</span></li>
-    </div>  
+    </div>
   </el-card>
 </template>
 
@@ -24,7 +24,18 @@ export default {
   props: ['college'],
   data () {
     return {
-      hash: {name: '名称', type: '学院类型', addr: '地址', email: '邮箱', brief: '简介', code: '学校代码', website: '站点', tel: '电话', province: '所在省份', fee: '学费信息'}
+      hash: {
+        name: '名称',
+        type: '学院类型',
+        addr: '地址',
+        email: '邮箱',
+        brief: '简介',
+        code: '学校代码',
+        website: '站点',
+        tel: '电话',
+        province: '所在省份',
+        fee: '学费信息'
+      }
     }
   }
 }
@@ -34,7 +45,7 @@ export default {
   .card-header span {
     font-size: 25px;
     line-height: 25px;
-    vertical-align: center; 
+    vertical-align: center;
     font-weight: bold;
     margin-left: 8px;
   }

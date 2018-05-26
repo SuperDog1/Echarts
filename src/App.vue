@@ -6,7 +6,7 @@
     </header>
     <section id="main">
       <Aside />
-      <Main />
+      <Main v-bind:college="college"/>
     </section>
   </div>
 </template>
@@ -20,6 +20,16 @@ export default {
     Aside,
     Main,
   },
+  data() {
+    return {
+      college: []
+    }
+  },
+  beforeMount() {
+    this.$fetch('/all/schools').then((res) => {
+      this.college = res.data
+    })
+  }
 }
 </script>
 <style>

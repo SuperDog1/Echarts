@@ -10,10 +10,10 @@
         {{label}}
       </a>
     </div>
-    <div class="selected" v-if="selected.length !== 0">
+    <div class="selected" v-if="selectedArea.length || selectedType.length || selectedMajor.length">
       <span class="tag-title">已选关键字：</span>
       <el-tag
-        v-for="tag in selected"
+        v-for="tag in [...selectedArea, ...selectedType, ...selectedMajor]"
         :key="tag"
         closable
         @close="handleCloseTag(tag)"
@@ -30,8 +30,8 @@
       @node-click="handleNodeClick"
       :render-after-expand="false"
       show-checkbox
-      @check-change="handleCheckChange"
-      :default-checked-keys="selected"
+      @check="handleCheck"
+      :default-checked-keys="[...selectedArea, ...selectedType, ...selectedMajor]"
     />
   </div>
 </template>
@@ -39,6 +39,13 @@
 import area from '../common/area.json'
 import major from '../common/major.json'
 import type from '../common/type.json'
+
+const TAB_DATA = {
+  '区域省份': area,
+  '高校类型': type,
+  '学科专业': major,
+}
+
 export default {
   name: 'Aside',
   data () {
@@ -50,43 +57,60 @@ export default {
         children: 'children',
         label: 'label'
       },
-      selected: [],
+      selectedArea: [],
+      selectedType: [],
+      selectedMajor: [],
     }
   },
-  watch: {
-    selected: {
-      handler: function(newValue, oldValue) {
-        this.$bus.$emit('selected-change', [...newValue])
-      },
-      immediate: true
-    }
-  },
-
   methods: {
     changeTab(label) {
-      const TAB_DATA = {
-        '区域省份': area,
-        '高校类型': type,
-        '学科专业': major,
-      }
       this.activeTab = label
       this.tabData = TAB_DATA[label]
     },
     handleCloseTag(label) {
-      this.selected = this.selected.filter((o) => o !== label)
-      this.$refs.tree.setCheckedKeys(this.selected)
+      switch (this.activeTab) {
+        case '区域省份': {
+          this.selectedArea = this.selectedArea.filter((o) => o !== label)
+          break
+        }
+        case '高校类型': {
+          this.selectedType = this.selectedType.filter((o) => o !== label)
+          break
+        }
+        case '学科专业': {
+          this.selectedMajor = this.selectedMajor.filter((o) => o !== label)
+        }
+      }
+      this.$refs.tree.setCheckedKeys([
+        ...this.selectedArea,
+        ...this.selectedType,
+        ...this.selectedMajor
+      ])
     },
     handleNodeClick(data) {
       console.log(data)
     },
-    handleCheckChange(data, checked, indeterminate) {
-      const { label } = data
-      if (checked) {
-        this.selected.push(label)
-      } else {
-        this.selected = this.selected.filter((o) => o !== label)
+    handleCheck(_, data) {
+      const { checkedKeys } = data
+      switch (this.activeTab) {
+        case '区域省份': {
+          this.selectedArea = checkedKeys
+          break
+        }
+        case '高校类型': {
+          this.selectedType = checkedKeys
+          break
+        }
+        case '学科专业': {
+          this.selectedMajor = checkedKeys
+        }
       }
-    },
+      this.$bus.$emit('selected-change', [
+        this.selectedArea,
+        this.selectedType,
+        this.selectedMajor,
+      ])
+    }
   }
 }
 </script>

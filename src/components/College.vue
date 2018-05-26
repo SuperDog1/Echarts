@@ -1,31 +1,27 @@
 <template>
   <div class="college-container">
-    <h2>合肥工业大学</h2>
+    <h2>{{college.name}}</h2>
     <div class="intro card">
       <div class="logo-container">
-        <img class="logo" src="http://ormuxuvyx.bkt.clouddn.com/college/logo/63.jpg" alt="">
+        <img class="logo" :src="college.logo" alt="">
       </div>
       <ul class="left">
-        <li>高校类型： <span class="c211">211</span></li>
-        <li>高校隶属于：教育部</li>
-        <li>高校所在地：安徽</li>
-        <li>院士：2人 博士点：83个 硕士点：31个</li>
+        <li>高校类型： <span class="c211">{{college.type}}</span></li>
+        <li>高校隶属于：{{college.memberShip}}</li>
+        <li>高校所在地：{{college.province}}</li>
+        <li>院士：--人 博士点：--个 硕士点：--个</li>
       </ul>
       <ul class="left">
-        <li>学校地址：安徽省合肥市包河区屯溪路193号</li>
-      　<li>联系电话：0551-62901096，0551-62905427</li>
-        <li>电子邮箱：<a href="">hfutzb@hfut.edu.cn</a></li>
-      　<li>学校网址：<a href="">www.hfut.edu.cn/ch/</a></li>
+          <li>学校地址：{{college.addr}}</li>
+        　<li>联系电话：{{college.tel}}</li>
+          <li>电子邮箱：<a :href="'mailto:' + college.email">{{college.email}}</a></li>
+        　<li>学校网址：<a :href="college.website">{{college.website}}</a></li>
       </ul>
     </div>
     <div class="brief-intro card">
       <h3>简明介绍</h3>
-      <p>
-      合肥工业大学是一所教育部直属的全国重点大学、国家\"211工程\"重点建设高校和\"985工程\"优势学科创新平台建设高校，
-      是教育部、工业和信息化部与安徽省共建高校。学校创建于1945年，1960年被中共中央批准为全国重点大学。刘少奇、朱德、
-      邓小平等老一辈无产阶级革命家先后来校视察指导工作。1979年，邓小平同志亲笔题写了\"合肥工业大学\"校名；1997年，
-      原合肥工业大学与安徽工学院合并组成新的合肥工业大学；1998年，重新划转教育部管理。建校以来，
-      学校以民族振兴和社会进步为己任，深怀\"工业报国\"之志，秉...</p>
+      <p>{{college.brief}}</p>
+      <p>{{college.fee}}</p>
     </div>
     <div class="chart-card card">
       <h3>学生情况</h3>
@@ -47,6 +43,7 @@
 <script>
 export default {
   name: 'College',
+  props: ['college'],
   mounted() {
     const age_chart = this.$echarts.init(document.getElementById('age-chart'))
     const age_option = {

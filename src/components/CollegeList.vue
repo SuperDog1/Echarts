@@ -1,23 +1,26 @@
 <template>
   <div class="list-container">
-    <h2>安徽省的双一流高校</h2>
-    <div @click="changePage" v-for="college in list" :key="college.name">
+    <h2>{{province}}的双一流高校</h2>
+    <div class="item-container" @click="changePage(college.name)" v-for="college in list" :key="college.name">
       <div class="intro card">
+        <h3 class="name">{{college.name}}</h3>
+        <div class="flex">
         <div class="logo-container">
           <img class="logo" :src="college.logo" alt="">
         </div>
         <ul class="left">
-          <li>高校类型： <span class="c211">211</span></li>
-          <li>高校隶属于：教育部</li>
-          <li>高校所在地：安徽</li>
-          <li>院士：2人 博士点：83个 硕士点：31个</li>
+          <li>高校类型：{{college.type}}</li>
+          <li>高校隶属于：{{college.memberShip}}</li>
+          <li>高校所在地：{{college.province}}</li>
+          <li>院士：--人 博士点：--个 硕士点：--个</li>
         </ul>
         <ul class="left">
           <li>学校地址：{{college.addr}}</li>
-        　<li>联系电话：0551-62901096，0551-62905427</li>
-          <li>电子邮箱：<a href="">hfutzb@hfut.edu.cn</a></li>
-        　<li>学校网址：<a href="">www.hfut.edu.cn/ch/</a></li>
+        　<li>联系电话：{{college.tel}}</li>
+          <li>电子邮箱：<a :href="'mailto:' + college.email">{{college.email}}</a></li>
+        　<li>学校网址：<a :href="college.website">{{college.website}}</a></li>
         </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -25,19 +28,23 @@
 <script>
 export default {
   name: 'CollegeList',
+  props: ['college', 'province'],
   data() {
     return {
-      list: [
-        {name: '合肥工业大学', logo: 'http://ormuxuvyx.bkt.clouddn.com/college/logo/63.jpg', addr: '安徽省合肥市包河区屯溪路193号'},
-        {name: '中国科学技术大学',logo:'http://ormuxuvyx.bkt.clouddn.com/college/logo/66.jpg',addr:'安徽省合肥市金寨路96号'},
-        {name: '安徽大学',logo:'http://ormuxuvyx.bkt.clouddn.com/college/logo/67.jpg',addr:'安徽省合肥市九龙路111号'},
-      ],
+      list: [],
     }
   },
   methods: {
-    changePage() {
-      this.$emit('changePage', 'college')
+    changePage(name) {
+      this.$emit('changePage', 'college', name)
     }
+  },
+  created() {
+    this.list = this.college.filter((c) => c.province === this.province)
+    this.list.sort((a, b) => a.level - b.level)
+    this.$bus.$on("selected-change", (array) => {
+
+    })
   }
 }
 </script>
@@ -47,9 +54,11 @@ export default {
   }
   .intro {
     padding: 12px;
-    display: flex;
     max-width: 900px;
     margin: 16px 0;
+  }
+  .item-container {
+    width: 920px;
   }
   .logo-container {
     height: 150px;
@@ -78,5 +87,11 @@ export default {
   }
   .card:hover {
     border: 2px solid #fff;
+  }
+  .flex {
+    display: flex;
+  }
+  .name {
+    margin: 6px;
   }
 </style>

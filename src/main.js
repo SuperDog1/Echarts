@@ -14,8 +14,11 @@ Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts
 registerMap(echarts)
 
-Vue.prototype.$post=post
-Vue.prototype.$fetch=fetch
+/* Ajax */
+
+Vue.prototype.$post = post
+
+Vue.prototype.$fetch = fetch
 Vue.use(ElementUI)
 
 /* bus */

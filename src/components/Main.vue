@@ -13,16 +13,17 @@
     </div>
     <div class="home" v-if="pages[pages.length - 1].key === 'map'">
       <Map @changePage="changePage"/>
-      <Compare />
+      <Compare :college="college"/>
     </div>
     <CollegeList
       v-if="pages[pages.length - 1].key === 'college-list'"
       @changePage="changePage"
-      :provance="pages[pages.length - 1].data"
+      :college="college"
+      :province="pages[pages.length - 1].data"
     />
     <College
       v-if="pages[pages.length - 1].key === 'college'"
-      :college="pages[pages.length - 1].data"
+      :college="college.find(c => c.name === pages[pages.length - 1].data)"
     />
   </div>
 </template>
@@ -40,6 +41,7 @@ export default {
     CollegeList,
     Compare,
   },
+  props: ['college'],
   data() {
     return {
       pageNames: {

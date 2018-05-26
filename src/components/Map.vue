@@ -93,7 +93,7 @@ export default {
   created() {
     this.$bus.$on("selected-change", (array) => {
       const areas = [ '华东', '华南', '华中', '华北', '西北', '西南', '东北', '台港澳' ].filter(
-        (a) => array.includes(a)
+        (a) => array[0].includes(a)
       )
       if (areas.length === 1) {
         this.area = areas[0]

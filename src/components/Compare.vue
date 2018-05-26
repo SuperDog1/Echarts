@@ -1,5 +1,5 @@
 <template>
-  <div class="container" v-show="selected.length !== 0">
+  <div class="container" v-show="selectedArea.length || selectedType.length || selectedMajor.length">
     <div class="chart-card">
       <h3>学校排名</h3>
       <div id="rank-chart"></div>
@@ -15,116 +15,159 @@
   </div>
 </template>
 <script>
+import range from 'lodash/range'
 export default {
   name: 'Compare',
+  props: ['college'],
   data() {
     return {
-      selected: [],
+      selectedArea: [],
+      selectedType: [],
+      selectedMajor: [],
+      rank_chart: null,
+      number_chart: null,
+      proportion_chart: null
     }
   },
   created() {
     this.$bus.$on("selected-change", (array) => {
-      this.selected = array
+      this.selectedArea = array[0]
+      this.selectedType = array[1]
+      this.selectedMajor = array[2]
+      this.changeRankChart()
+      this.changeNumberChart()
+      this.changeProportionChart()
     })
   },
-  mounted() {
-    const rank_chart = this.$echarts.init(document.getElementById('rank-chart'))
-    const rank_option = {
-      tooltip : {
-        trigger: 'axis'
-      },
-      toolbox: {
-        show : true,
-        feature : {
-          dataView : {show: true, readOnly: false},
-          magicType : {show: true, type: ['line', 'bar']},
-          restore : {show: true},
-          saveAsImage : {show: true},
-        }
-      },
-      calculable : true,
-      xAxis: {
-        type: 'category',
-        axisLabel: { color: '#fff' },
-        data: ['天津', '河北', '山西', '内蒙古', '辽宁', '吉林', '黑龙江','江苏','浙江','安徽','福建','江西','山东','河南','湖北','湖南','广东','广西','海南','重庆','四川','贵州','云南','陕西','甘肃','青海','宁夏','其他',]
-      },
-      yAxis: {
-        type: 'value',
-        axisLabel: { color: '#fff' },
-      },
-      series: [{
-        name: '',
-        data: [18, 73, 90, 46, 17, 28, 23,46,532,65,98,59,191,87,73,39,88,16,49,92,62,44,80,92,37,29,180],
-        type: 'bar'
-      }]
-    }
-    rank_chart.setOption(rank_option)
+  methods: {
+    changeRankChart() {
+      const { college, selectedArea, selectedType, selectedMajor } = this
+      const college_data = college
+        .filter((c) => selectedArea.length === 0 || selectedArea.includes(c.province))
+        .filter((c) => selectedType.length === 0 || selectedType.includes(c.property))
 
-    const number_chart = this.$echarts.init(document.getElementById('number-chart'))
-    const number_option = {
-      xAxis: {
-        type: 'category',
-        axisLabel: { color: '#fff' },
-        data: ['天津', '河北', '山西', '内蒙古', '辽宁', '吉林', '黑龙江','江苏','浙江','安徽','福建','江西','山东','河南','湖北','湖南','广东','广西','海南','重庆','四川','贵州','云南','陕西','甘肃','青海','宁夏','其他',]
-      },
-      yAxis: {
-        type: 'value',
-        axisLabel: { color: '#fff' },
-      },
-      series: [{
-        data: [18, 73, 90, 46, 17, 28, 23,46,532,65,98,59,191,87,73,39,88,16,49,92,62,44,80,92,37,29,180],
-        type: 'bar'
-      }]
-    }
-    number_chart.setOption(number_option)
-
-    const proportion_chart = this.$echarts.init(document.getElementById('proportion-chart'))
-    const proportion_option = {
-      tooltip : {
-        trigger: 'axis'
-      },
-      legend: {
-        data:['男生','女生'],
-        textStyle: { color: '#fff' },
-      },
-      toolbox: {
-        show : true,
-        feature : {
-          dataView : {show: true, readOnly: false},
-          magicType : {show: true, type: ['line', 'bar']},
-          restore : {show: true},
-          saveAsImage : {show: true},
-        }
-      },
-      calculable : true,
-      xAxis : [
-        {
-          type : 'category',
-          data : ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
-          axisLabel: { color: '#fff' },
-        }
-      ],
-      yAxis : [
-        {
-          type : 'value',
-          axisLabel: { color: '#fff' },
-        }
-      ],
-      series : [
-        {
-          name:'男生',
-          type:'bar',
-          barGap: 0,
-          data:[0.66, 0.53, 0.88, 0.36,0.74,0.54, 0.63, 0.47, 0.58, 0.75, 0.80, 0.27],
+      college_data.sort((a, b) => a.level - b.level)
+      const rank_option = {
+        tooltip : {
+          trigger: 'axis'
         },
-        {
-          name:'女生',
-          type:'bar',
-          data:[0.34,0.47,0.12, 0.64,0.26, 0.46, 0.37, 0.53,0.42, 0.25, 0.2, 0.73],
-        }
-      ]
+        toolbox: {
+          show : true,
+          feature : {
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true},
+          }
+        },
+        calculable : true,
+        xAxis: {
+          type: 'category',
+          axisLabel: { color: '#fff' },
+          data: college_data.map(c => c.name),
+        },
+        yAxis: {
+          type: 'value',
+          axisLabel: { color: '#fff' },
+        },
+        series: [{
+          name: '',
+          data: college_data.map(c => c.level),
+          type: 'bar'
+        }]
+      }
+      this.rank_chart.setOption(rank_option)
+    },
+    changeNumberChart() {
+      const { college, selected } = this
+      const college_data = college
+        .filter((c) => selectedArea.length === 0 || selectedArea.includes(c.province))
+        .filter((c) => selectedType.length === 0 || selectedType.includes(c.property))
+
+      college_data.sort((a, b) => a.level - b.level)
+      const number_option = {
+        xAxis: {
+          type: 'category',
+          axisLabel: { color: '#fff' },
+          data: college_data.map(c => c.name),
+        },
+        yAxis: {
+          type: 'value',
+          scale: true,
+          axisLabel: { color: '#fff' },
+        },
+        series: [{
+          data: college_data.map(() => Math.floor((Math.random() * 500) + 3000)),
+          type: 'bar'
+        }]
+      }
+      this.number_chart.setOption(number_option)
+    },
+    changeProportionChart() {
+      const { college, selected } = this
+      const college_data = college
+        .filter((c) => selectedArea.length === 0 || selectedArea.includes(c.province))
+        .filter((c) => selectedType.length === 0 || selectedType.includes(c.property))
+
+      college_data.sort((a, b) => a.level - b.level)
+      const man_proportion = college_data.map(() => ((Math.random() * 0.5) + 0.25).toFixed(2))
+      const proportion_option = {
+        tooltip : {
+          trigger: 'axis'
+        },
+        legend: {
+          data:['男生', '女生'],
+          textStyle: { color: '#fff' },
+        },
+        toolbox: {
+          show : true,
+          feature : {
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true},
+          }
+        },
+        calculable : true,
+        xAxis : [
+          {
+            type : 'category',
+            data : college_data.map(c => c.name),
+            axisLabel: { color: '#fff' },
+          }
+        ],
+        yAxis : [
+          {
+            type : 'value',
+            axisLabel: { color: '#fff' },
+          }
+        ],
+        series : [
+          {
+            name:'男生',
+            type:'bar',
+            barGap: 0,
+            data: man_proportion,
+          },
+          {
+            name:'女生',
+            type:'bar',
+            data: man_proportion.map(v => (1 - v).toFixed(2)),
+          }
+        ]
+      }
+      this.proportion_chart.setOption(proportion_option)
     }
-    proportion_chart.setOption(proportion_option)
+  },
+  mounted() {
+    this.rank_chart = this.$echarts.init(document.getElementById('rank-chart'))
+    this.changeRankChart()
+
+    this.number_chart = this.$echarts.init(document.getElementById('number-chart'))
+    this.changeNumberChart()
+
+    this.proportion_chart = this.$echarts.init(document.getElementById('proportion-chart'))
+    this.changeProportionChart()
   },
 }
 </script>
